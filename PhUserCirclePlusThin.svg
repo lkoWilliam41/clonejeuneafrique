@@ -1,0 +1,518 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ph" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="currentColor" d="M172 56a4 4 0 0 1 4-4h20V32a4 4 0 0 1 8 0v20h20a4 4 0 0 1 0 8h-20v20a4 4 0 0 1-8 0V60h-20a4 4 0 0 1-4-4Zm54.8 56.2A104.1 104.1 0 0 1 228 128a99.6 99.6 0 0 1-32.7 73.9l-.8.8a99.9 99.9 0 0 1-132.9 0a3.6 3.6 0 0 1-.9-.8A100 100 0 0 1 128 28a104.1 104.1 0 0 1 15.8 1.2a4 4 0 0 1 3.3 4.6a4 4 0 0 1-4.6 3.3A100 100 0 0 0 128 36a92 92 0 0 0-65.2 156.9a75.8 75.8 0 0 1 44.5-34.1a44 44 0 1 1 41.4 0a75.8 75.8 0 0 1 44.5 34.1A92.1 92.1 0 0 0 220 128a99 99 0 0 0-1.1-14.5a4 4 0 0 1 3.3-4.6a4 4 0 0 1 4.6 3.3ZM128 156a36 36 0 1 0-36-36a36 36 0 0 0 36 36Zm0 64a91.3 91.3 0 0 0 59.1-21.6a68 68 0 0 0-118.2 0A91.3 91.3 0 0 0 128 220Z"></path></svg>
+
+
+
+
+
+
+
+
+
+
+
+
+ <footer class="footer d-print-none">
+          
+        
+                
+
+        <div class="footer-news">
+            <div class="footer-news__container container">
+                <div class="footer-news__grid">
+                    <div class="footer-news__mentions">
+                        <h4 class="footer-news__title">
+                            Dans l'actualité
+                        </h4>
+                        <ul class="footer-news__mentions-list">
+                                                    <li class="footer-news__mentions-item">
+                                    <a class="footer-news__mentions-link" href="https://www.jeuneafrique.com/personnalites/alpha-conde/">
+                                        Alpha Condé
+                                    </a>
+                                </li>
+                                                    <li class="footer-news__mentions-item">
+                                    <a class="footer-news__mentions-link" href="https://www.jeuneafrique.com/tags/cooperation/">
+                                        Coopération
+                                    </a>
+                                </li>
+                                                    <li class="footer-news__mentions-item">
+                                    <a class="footer-news__mentions-link" href="https://www.jeuneafrique.com/evenements/crise-anglophone-au-cameroun/">
+                                        Crise anglophone au Cameroun
+                                    </a>
+                                </li>
+                                                    <li class="footer-news__mentions-item">
+                                    <a class="footer-news__mentions-link" href="https://www.jeuneafrique.com/tags/relations-france-afrique/">
+                                        Relations France-Afrique
+                                    </a>
+                                </li>
+                                            </ul>
+                    </div>
+                    <div class="footer-news__helpers">
+                        <h4 class="footer-news__title">
+                            Pratique
+                        </h4>
+                        <ul class="footer-news__helpers-list list-chevron">
+                                                    <li class="footer-news__helpers-item">
+                                    <a class="footer-news__helpers-link" id="button-site_footer-mobile-app" data-category="site_footer" href="/applications-mobiles/">
+                                        Applis mobile
+                                    </a>
+                                </li>
+                                                    <li class="footer-news__helpers-item">
+                                    <a class="footer-news__helpers-link" id="button-site_footer-rss" data-category="site_footer" href="/page-rss/">
+                                        Fils RRS
+                                    </a>
+                                </li>
+                                                    <li class="footer-news__helpers-item">
+                                    <a class="footer-news__helpers-link" id="button-site_footer-newsletter" data-category="site_footer" href="https://jeuneafrique.us2.list-manage.com/subscribe?u=6f73d53fb63e8c665c4e3800d&amp;id=9e88e09281">
+                                        Newsletters
+                                    </a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <div class="footer-social">
+            <div class="footer-social__container container">
+                <div class="footer-social__grid">
+                    <div class="footer-social__follow">
+                        <h4 class="footer-social__title">
+                            Retrouvez jeune afrique sur
+                        </h4>
+                        <ul class="footer-social__follow-list">
+                                                    <li class="footer-social__follow-item">
+                                    
+        <a class="social-btn social-btn--facebook" id="link-site_footer-social-facebook" data-category="site_footer" href="https://www.facebook.com/jeuneafrique1">
+            
+        <i class="social-btn__icon icon icon-facebook" aria-hidden="true"></i></a>						</li>
+                                                    <li class="footer-social__follow-item">
+                                    
+        <a class="social-btn social-btn--twitter" id="link-site_footer-social-twitter" data-category="site_footer" href="https://twitter.com/Jeune_Afrique">
+            
+        <i class="social-btn__icon icon icon-twitter" aria-hidden="true"></i></a>						</li>
+                                                    <li class="footer-social__follow-item">
+                                    
+        <a class="social-btn social-btn--pinterest" id="link-site_footer-social-pinterest" data-category="site_footer" href="https://www.pinterest.fr/jeuneafrique/">
+            
+        <i class="social-btn__icon icon icon-pinterest" aria-hidden="true"></i></a>						</li>
+                                                    <li class="footer-social__follow-item">
+                                    
+        <a class="social-btn social-btn--linkedin" id="link-site_footer-social-linkedin" data-category="site_footer" href="https://www.linkedin.com/company/jeune-afrique/mycompany/">
+            
+        <i class="social-btn__icon icon icon-linkedin" aria-hidden="true"></i></a>						</li>
+                                                    <li class="footer-social__follow-item">
+                                    
+        <a class="social-btn social-btn--instagram" id="link-site_footer-social-instagram" data-category="site_footer" href="https://www.instagram.com/jeuneafrique/">
+            
+        <i class="social-btn__icon icon icon-instagram" aria-hidden="true"></i></a>						</li>
+                                                    <li class="footer-social__follow-item">
+                                    
+        <a class="social-btn social-btn--rss" id="link-site_footer-social-rss" data-category="site_footer" href="https://www.jeuneafrique.com/page-rss/">
+            
+        <i class="social-btn__icon icon icon-rss" aria-hidden="true"></i></a>						</li>
+                                            </ul>
+                    </div>
+                    <div class="footer-social__newsletter">
+                        <h4 class="footer-social__title">
+                            Recevez notre newsletter
+                        </h4>
+                        
+        <a class="btn btn--sm" id="button-site_footer-newsletter" data-category="site_footer" href="/mon-compte/newsletters-gratuites/">
+                        <span class="btn__label">
+                JE M'INSCRIS
+            </span>
+        </a>			</div>
+                </div>
+            </div>
+        </div>
+        
+        
+                
+            
+                                                                                                    
+            
+            
+                                                                                                                                                                                                    
+            
+            
+                                                                                                                
+            
+            
+                                                                                                                                                    
+            
+            
+                                                                                                                                                                                        
+            
+        
+        <div class="footer-sitemap">
+            <div class="footer-sitemap__container container">
+                <div class="footer-sitemap__grid">
+                                    <ul class="footer-sitemap__list">
+                            <h4 class="footer-sitemap__title">
+                                <a href="https://www.jeuneafrique.com/pays/maghreb-moyen-orient/" id="link-site_footer-sitemap-1-title-maghreb-moyen-orient" data-category="site_footer">
+                                    Maghreb &amp; Moyen-Orient
+                                </a>
+                            </h4>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-2-title-algerie" data-category="site_footer" href="https://www.jeuneafrique.com/pays/algerie/">
+                                        Algérie
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-3-title-egypte" data-category="site_footer" href="https://www.jeuneafrique.com/pays/egypte/">
+                                        Égypte
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-4-title-libye" data-category="site_footer" href="https://www.jeuneafrique.com/pays/libye/">
+                                        Libye
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-5-title-maroc" data-category="site_footer" href="https://www.jeuneafrique.com/pays/maroc/">
+                                        Maroc
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-6-title-mauritanie" data-category="site_footer" href="https://www.jeuneafrique.com/pays/mauritanie/">
+                                        Mauritanie
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-7-title-moyen-orient" data-category="site_footer" href="https://www.jeuneafrique.com/pays/moyen-orient/">
+                                        Moyen-Orient
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-8-title-tunisie" data-category="site_footer" href="https://www.jeuneafrique.com/pays/tunisie/">
+                                        Tunisie
+                                    </a>
+                                </li>
+                                            </ul>
+                                    <ul class="footer-sitemap__list">
+                            <h4 class="footer-sitemap__title">
+                                <a href="https://www.jeuneafrique.com/pays/afrique-de-louest/" id="link-site_footer-sitemap-2-title-afrique-de-louest" data-category="site_footer">
+                                    Afrique de l’Ouest
+                                </a>
+                            </h4>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-2-title-benin" data-category="site_footer" href="https://www.jeuneafrique.com/pays/benin/">
+                                        Bénin
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-3-title-burkina-faso" data-category="site_footer" href="https://www.jeuneafrique.com/pays/burkina-faso/">
+                                        Burkina Faso
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-4-title-cap-vert" data-category="site_footer" href="https://www.jeuneafrique.com/pays/cap-vert/">
+                                        Cap-Vert
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-5-title-cote-divoire" data-category="site_footer" href="https://www.jeuneafrique.com/pays/cote-divoire/">
+                                        Côte d'Ivoire
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-6-title-gambie" data-category="site_footer" href="https://www.jeuneafrique.com/pays/gambie/">
+                                        Gambie
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-7-title-ghana" data-category="site_footer" href="https://www.jeuneafrique.com/pays/ghana/">
+                                        Ghana
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-8-title-guinee" data-category="site_footer" href="https://www.jeuneafrique.com/pays/guinee/">
+                                        Guinée
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-9-title-guinee-bissau" data-category="site_footer" href="https://www.jeuneafrique.com/pays/guinee-bissau/">
+                                        Guinée-Bissau
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-10-title-liberia" data-category="site_footer" href="https://www.jeuneafrique.com/pays/liberia/">
+                                        Liberia
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-11-title-mali" data-category="site_footer" href="https://www.jeuneafrique.com/pays/mali/">
+                                        Mali
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-12-title-niger" data-category="site_footer" href="https://www.jeuneafrique.com/pays/niger/">
+                                        Niger
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-13-title-nigeria" data-category="site_footer" href="https://www.jeuneafrique.com/pays/nigeria/">
+                                        Nigeria
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-14-title-senegal" data-category="site_footer" href="https://www.jeuneafrique.com/pays/senegal/">
+                                        Sénégal
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-15-title-sierra-leone" data-category="site_footer" href="https://www.jeuneafrique.com/pays/sierra-leone/">
+                                        Sierra Leone
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-16-title-togo" data-category="site_footer" href="https://www.jeuneafrique.com/pays/togo/">
+                                        Togo
+                                    </a>
+                                </li>
+                                            </ul>
+                                    <ul class="footer-sitemap__list">
+                            <h4 class="footer-sitemap__title">
+                                <a href="https://www.jeuneafrique.com/pays/afrique-centrale/" id="link-site_footer-sitemap-3-title-afrique-centrale" data-category="site_footer">
+                                    Afrique centrale
+                                </a>
+                            </h4>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-2-title-cameroun" data-category="site_footer" href="https://www.jeuneafrique.com/pays/cameroun/">
+                                        Cameroun
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-3-title-centrafrique" data-category="site_footer" href="https://www.jeuneafrique.com/pays/centrafrique/">
+                                        Centrafrique
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-4-title-gabon" data-category="site_footer" href="https://www.jeuneafrique.com/pays/gabon/">
+                                        Gabon
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-5-title-guinee-equatoriale" data-category="site_footer" href="https://www.jeuneafrique.com/pays/guinee-equatoriale/">
+                                        Guinée équatoriale
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-6-title-rd-congo" data-category="site_footer" href="https://www.jeuneafrique.com/pays/rd-congo/">
+                                        RD Congo
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-7-title-republique-du-congo" data-category="site_footer" href="https://www.jeuneafrique.com/pays/republique-du-congo/">
+                                        République du Congo
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-8-title-tchad" data-category="site_footer" href="https://www.jeuneafrique.com/pays/tchad/">
+                                        Tchad
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-9-title-sao-tome-et-principe" data-category="site_footer" href="https://www.jeuneafrique.com/pays/sao-tome-et-principe/">
+                                        São Tomé-et-Príncipe
+                                    </a>
+                                </li>
+                                            </ul>
+                                    <ul class="footer-sitemap__list">
+                            <h4 class="footer-sitemap__title">
+                                <a href="https://www.jeuneafrique.com/pays/afrique-de-lest/" id="link-site_footer-sitemap-4-title-afrique-de-lest" data-category="site_footer">
+                                    Afrique de l'Est
+                                </a>
+                            </h4>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-2-title-burundi" data-category="site_footer" href="https://www.jeuneafrique.com/pays/burundi/">
+                                        Burundi
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-3-title-djibouti" data-category="site_footer" href="https://www.jeuneafrique.com/pays/djibouti/">
+                                        Djibouti
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-4-title-erythree" data-category="site_footer" href="https://www.jeuneafrique.com/pays/erythree/">
+                                        Érythrée
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-5-title-ethiopie" data-category="site_footer" href="https://www.jeuneafrique.com/pays/ethiopie/">
+                                        Éthiopie
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-6-title-kenya" data-category="site_footer" href="https://www.jeuneafrique.com/pays/kenya/">
+                                        Kenya
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-7-title-ouganda" data-category="site_footer" href="https://www.jeuneafrique.com/pays/ouganda/">
+                                        Ouganda
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-8-title-rwanda" data-category="site_footer" href="https://www.jeuneafrique.com/pays/rwanda/">
+                                        Rwanda
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-9-title-somalie" data-category="site_footer" href="https://www.jeuneafrique.com/pays/somalie/">
+                                        Somalie
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-10-title-soudan" data-category="site_footer" href="https://www.jeuneafrique.com/pays/soudan/">
+                                        Soudan
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-11-title-soudan-du-sud" data-category="site_footer" href="https://www.jeuneafrique.com/pays/soudan-du-sud/">
+                                        Soudan du Sud
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-12-title-tanzanie" data-category="site_footer" href="https://www.jeuneafrique.com/pays/tanzanie/">
+                                        Tanzanie
+                                    </a>
+                                </li>
+                                            </ul>
+                                    <ul class="footer-sitemap__list">
+                            <h4 class="footer-sitemap__title">
+                                <a href="https://www.jeuneafrique.com/pays/afrique-australe-et-ocean-indien/" id="link-site_footer-sitemap-5-title-afrique-australe-et-ocean-indien" data-category="site_footer">
+                                    Afrique australe et océan Indien
+                                </a>
+                            </h4>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-2-title-afrique-du-sud" data-category="site_footer" href="https://www.jeuneafrique.com/pays/afrique-du-sud/">
+                                        Afrique du Sud
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-3-title-angola" data-category="site_footer" href="https://www.jeuneafrique.com/pays/angola/">
+                                        Angola
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-4-title-botswana" data-category="site_footer" href="https://www.jeuneafrique.com/pays/botswana/">
+                                        Botswana
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-5-title-comores" data-category="site_footer" href="https://www.jeuneafrique.com/pays/comores/">
+                                        Comores
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-6-title-lesotho" data-category="site_footer" href="https://www.jeuneafrique.com/pays/lesotho/">
+                                        Lesotho
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-7-title-madagascar" data-category="site_footer" href="https://www.jeuneafrique.com/pays/madagascar/">
+                                        Madagascar
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-8-title-malawi" data-category="site_footer" href="https://www.jeuneafrique.com/pays/malawi/">
+                                        Malawi
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-9-title-maurice" data-category="site_footer" href="https://www.jeuneafrique.com/pays/maurice/">
+                                        Maurice
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-10-title-mozambique" data-category="site_footer" href="https://www.jeuneafrique.com/pays/mozambique/">
+                                        Mozambique
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-11-title-namibie" data-category="site_footer" href="https://www.jeuneafrique.com/pays/namibie/">
+                                        Namibie
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-12-title-seychelles" data-category="site_footer" href="https://www.jeuneafrique.com/pays/seychelles/">
+                                        Seychelles
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-13-title-eswatini" data-category="site_footer" href="https://www.jeuneafrique.com/pays/eswatini/">
+                                        Eswatini
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-14-title-zambie" data-category="site_footer" href="https://www.jeuneafrique.com/pays/zambie/">
+                                        Zambie
+                                    </a>
+                                </li>
+                                                    <li class="footer-sitemap__item">
+                                    <a class="footer-sitemap__link" id="link-site_footer-sitemap-15-title-zimbabwe" data-category="site_footer" href="https://www.jeuneafrique.com/pays/zimbabwe/">
+                                        Zimbabwe
+                                    </a>
+                                </li>
+                                            </ul>
+                            </div>
+            </div>
+        </div>
+                                            
+        
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom__container container">
+                <ul class="footer-bottom__list">
+                                    <li class="footer-bottom__item">
+                            <a class="footer-bottom__link" id="button-site_footer-cgu-qui-sommes-nous" data-category="site_footer" href="https://www.jeuneafrique.com/qui-sommes-nous/">
+                                Qui sommes-nous ?
+                            </a>
+                        </li>
+                                    <li class="footer-bottom__item">
+                            <a class="footer-bottom__link" id="button-site_footer-cgu-contacts" data-category="site_footer" href="https://www.jeuneafrique.com/contacts/">
+                                Contacts
+                            </a>
+                        </li>
+                                    <li class="footer-bottom__item">
+                            <a class="footer-bottom__link" id="button-site_footer-cgu-recrutement" data-category="site_footer" href="https://recrutement.jeuneafrique.com">
+                                Recrutement
+                            </a>
+                        </li>
+                                    <li class="footer-bottom__item">
+                            <a class="footer-bottom__link" id="button-site_footer-cgu-appels-doffres" data-category="site_footer" href="https://www.jeuneafrique.com/landing/appels-doffres/">
+                                Appels d'offres
+                            </a>
+                        </li>
+                                    <li class="footer-bottom__item">
+                            <a class="footer-bottom__link" id="button-site_footer-cgu-espaces-partenaires" data-category="site_footer" href="https://www.jeuneafrique.com/espace-partenaires/">
+                                Espaces Partenaires
+                            </a>
+                        </li>
+                                    <li class="footer-bottom__item">
+                            <a class="footer-bottom__link" id="button-site_footer-cgu-conditions-generales-dutilisation" data-category="site_footer" href="https://www.jeuneafrique.com/cgu-cgv/">
+                                Conditions générales d'utilisation
+                            </a>
+                        </li>
+                                    <li class="footer-bottom__item">
+                            <a class="footer-bottom__link" id="button-site_footer-cgu-aide-faq" data-category="site_footer" href="https://www.jeuneafrique.com/faq-globale-generale/">
+                                Aide (FAQ)
+                            </a>
+                        </li>
+                                    <li class="footer-bottom__item">
+                            <a class="footer-bottom__link" id="link-site_footer-gdpr-button" data-category="site_footer" href="javascript:Didomi.preferences.show()">
+                                Gérer mes cookies
+                            </a>
+                        </li>
+                            </ul>
+                <p class="footer-bottom__copyright">
+                    © Jeune Afrique&nbsp;2022, tous droits réservés
+                </p>
+            </div>
+        </div>
+        </footer>
+        
+</body>
+</html>

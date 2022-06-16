@@ -1,0 +1,293 @@
+@font-face {
+    font-family: william;
+    src: url(taz-semilight.woff2);
+}
+
+@font-face{
+    font-family: ecritgras;
+    src: url(KFOlCnqEu92Fr1MmWUlfBBc4.woff2);
+}
+
+@font-face{
+    font-family: prisque;
+    src: url(taz-extrabold.woff2);
+}
+
+
+/* body's part */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: prisque;
+}
+
+
+/* topbar start */
+.topbar{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    justify-content: space-around;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.top{
+    text-decoration: none;
+}
+
+
+ul{
+    display: flex;
+    text-align: center;
+}
+
+.logodusite{
+    position: relative;
+    right: 35vw;
+}
+
+
+#afrique{
+    color: red;
+}
+
+.jeune_afrique{
+    color: black;
+    font-family: prisque;
+    font-size: 3.2em;
+    position: relative;
+    left: 40px;
+}
+
+.abonner{
+    font-size: 1.1em;
+    position: relative;
+    left: 30vw;
+    top: 20px;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    border: solid rgb(246, 216, 18);
+    background-color:rgb(246, 216, 18);
+    font-family:william;
+}
+
+.utilisateur{
+    color: black;
+    position: relative;
+    left: 31vw;
+    top:13px
+}
+
+.mon_compte{
+    color: gray;
+    position: relative;
+    left: 32vw;
+    top: 17px;
+    font-family: william;
+}
+/* Topbar end */
+
+
+
+/* header start */
+
+header{
+    background-color: #f7f8fa;
+    position: sticky;
+}
+.menu{
+    font-family: prisque;
+    margin-right: 30px;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.offre{
+    color: rgb(40, 162, 232);
+}
+
+.add{
+    position: relative;
+    bottom: 10px;
+}
+
+.lesdeux{
+    padding-left: 10px;
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.recherche{
+    position: relative;
+    left: 300px;
+    border-left:1px solid gray;
+    padding-left: 10px;
+}
+
+.actus{
+    position: relative;
+    left: 290px;
+    top: 10px;
+    border-left:1px solid gray;
+    padding-left: 20px;
+}
+/* end header */
+
+
+/* start pubbar */
+
+.pubbar{
+    background-color: #2b2727;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.pubbar p{
+    color: #ffffff;
+    position: relative;
+    left: 15px;
+}
+
+#ja{
+    background-color: rgb(246, 216, 18);
+}
+
+.arrow{
+    color: gray;
+}
+
+.gauche{
+    position: relative;
+    left: 770px;
+}
+
+.droite{
+    position: relative;
+    left: 375px;
+}
+
+.africa_business{
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(51, 168, 168);
+    text-decoration: none;
+}
+/* pubbar end */
+
+
+/* start main */
+.pubbar{
+    background-color: #2b2727;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.pubbar p{
+    color: #ffffff;
+    position: relative;
+    left: 15px;
+}
+
+#ja{
+    background-color: rgb(246, 216, 18);
+}
+
+.arrow{
+    color: gray;
+}
+
+.gauche{
+    position: relative;
+    left: 770px;
+}
+
+.droite{
+    position: relative;
+    left: 375px;
+}
+
+.africa_business{
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(51, 168, 168);
+}
+.partie1{
+    background-color: aqua;
+    width: 70%;
+    height:100vh;
+    position: relative;
+    left: 280px;
+    top: 357px;
+    text-align: center;
+}
+
+.partie1 h2{
+   color: red;
+   font-family: william;
+}
+
+.partie1 h1{
+    font-size: 2.3em;
+}
+
+.partie1 h4{
+    color: gray;
+}
+
+.partie1 h6{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.contenair{
+    max-width: 780px;
+    width: 80%;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    top: 40px;
+    display: grid;
+    left: 85px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+
+.fatou{
+    position: relative;
+
+}
+
+.image_text{
+    height: auto;
+    background-color: #ffffff;
+}
+
+.paragraph1{
+    text-align: left;
+}
+
+.publicite{
+    width: 310px;
+    height: auto;
+    background-color:  #ffffff;
+}
+
+#a_lire{
+    background-color: rgb(85, 225, 215);
+}
