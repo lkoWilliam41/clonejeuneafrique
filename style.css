@@ -78,7 +78,7 @@ ul{
 .abonner{
     font-size: 1.1em;
     position: relative;
-    left: 29vw;
+    left: 27vw;
     top: 20px;
     color: black;
     padding: 10px 25px 10px 25px;
@@ -90,15 +90,15 @@ ul{
 .utilisateur{
     color: black;
     position: relative;
-    left: 29.5vw;
+    left: 28vw !important;
     top:13px
 }
 
 .mon_compte{
     color: gray;
     position: relative;
-    left: 30vw;
-    top: 17px;
+    left: 28vw;
+    top: 22px !important;
     font-family: william;
 }
 /* Topbar end */
@@ -110,21 +110,23 @@ ul{
 header{
     background-color: #f7f8fa;
     position: fixed;
-    top: 96px;
+    top: 94px;
     width: 100%;
     z-index: 1000;
 }
 
 .plus{
     position: relative;
-    right: 250px;
+    right: 240px !important;
+    top: 18px !important;
 }
 
 .menu{
     font-family: prisque;
-    margin-right: 30px;
+    margin-right: 10px;
+    font-size: 15px;
     position: relative;
-    top: 20px;
+    top: 16px;
     text-decoration: none;
     color: #000000;
 }
@@ -142,19 +144,25 @@ header{
     padding-left: 10px;
     color: #000000;
     text-decoration: none;
+    position: relative;
+    right: 100px !important;
+    font-size: 15px;
     
 }
 
 .recherche{
     position: relative;
-    left: 120px;
+    left: 390px !important;
+    right: -50px ;
     border-left:1px solid gray;
     padding-left: 10px;
+    
+    font-size: 15px;
 }
 
 .actus{
     position: relative;
-    left: 120px;
+    left: 280px;
     top: 10px;
     border-left:1px solid gray;
     padding-left: 20px;
@@ -169,6 +177,8 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    position: relative;
+    top: -2px;
 }
 
 .pubbar p{
@@ -190,12 +200,12 @@ header{
 
 .gauche{
     position: relative;
-    left: 640px !important;
+    left: 515px !important;
 }
 
 .droite{
     position: relative;
-    left: 317px !important;
+    left: 250px !important;
 }
 
 .africa_business{
