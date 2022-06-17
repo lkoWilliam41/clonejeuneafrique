@@ -1246,12 +1246,7 @@ header{
 /* au  niveau de la div de la premiere colone */
 
 .premierecolone{
-    
-}
 
-.lesarafricains{
-    position: relative;
-    transform: translateX(100px);
 }
 
 
@@ -1260,7 +1255,7 @@ header{
     font-size: 16px;
     position: relative;
     top: 10px;
-    left: 300px;
+    left: 220px;
     text-decoration:none;
 }
 
@@ -1271,7 +1266,7 @@ header{
 
 .algerie{
  position: relative;
- left: 300px;
+ left: 220px;
  top: 20px;
  font-family: william;
  color:gray;
@@ -1279,7 +1274,7 @@ header{
 
 .egypte{
 position: relative;
-left: 300px;
+left: 220px;
 top: 25px;
 font-family: william;
 color:gray;
@@ -1287,7 +1282,7 @@ color:gray;
 
 .libye{
 position: relative;
-left: 300px;
+left: 220px;
 top: 30px;
 font-family: william;
 color:gray;
@@ -1295,7 +1290,7 @@ color:gray;
 
 .maroc{
 position: relative;
-left: 300px;
+left: 220px;
 top: 35px;
 font-family: william;
 color:gray;
@@ -1303,7 +1298,7 @@ color:gray;
 
 .mauritanie{
  position: relative;
- left: 300px;
+ left: 220px;
  top: 40px;
  font-family: william;  
  color:gray;
@@ -1311,7 +1306,7 @@ color:gray;
 
 .morient{
 position: relative;
-left: 300px;
+left: 220px;
 top: 45px;
 font-family: william;
 color:gray;
@@ -1319,7 +1314,7 @@ color:gray;
 
 .tunisie{
 position: relative;
-left: 300px;
+left: 220px;
 top: 50px;
 font-family: william;
 color:gray;}   
