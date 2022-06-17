@@ -59,7 +59,7 @@ ul{
 
 .logodusite{
     position: relative;
-    right: 33vw;
+    right: 32vw;
 }
 
 
@@ -191,6 +191,7 @@ header{
     background-color: rgb(246, 216, 18);
     border: 1px solid gray;
     color: #000000;
+    padding:3px;
 }
 
 .arrow{
@@ -982,14 +983,14 @@ header{
 
 .premiere_partie{
     background-color: #ffffff;
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     position: relative;
     top: 400px;
     border-top: 1px solid gray;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 60% 40%;
+    grid-template-rows: 70% 90%;
     gap: -10px;
 }
 
@@ -1163,10 +1164,10 @@ header{
 .quatriemequart::after{
     position:absolute;
     content: "";
-    height: 30%;
+    height: 18%;
     width: 0.07px;
     background-color: #c3c3c3;
-    transform: translate(-20px,-110%);
+    transform: translate(-20px,-160%);
 }
 
 .recevez{
@@ -1196,6 +1197,20 @@ header{
     text-decoration: none;
     color: #000000;
 }
+
+
+
+.recevez{
+    position: relative;
+    bottom: 30px !important;
+    transform: translateY(-20px);
+}
+
+.jeminscris{
+    position: relative;
+    transform: translateY(-15px);
+}
+
 
 
 
@@ -1229,6 +1244,17 @@ header{
 }
 
 /* au  niveau de la div de la premiere colone */
+
+.premierecolone{
+    
+}
+
+.lesarafricains{
+    position: relative;
+    transform: translateX(100px);
+}
+
+
 .deuxiemepartie h2 .Maghreb{
     color: #ffffff;
     font-size: 16px;
