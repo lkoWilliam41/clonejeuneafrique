@@ -1,1675 +1,1684 @@
-@font-face {
-    font-family: william;
-    src: url(taz-semilight.woff2);
-}
-
-@font-face{
-    font-family: ecritgras;
-    src: url(KFOlCnqEu92Fr1MmWUlfBBc4.woff2);
-}
-
-@font-face{
-    font-family: prisque;
-    src: url(taz-extrabold.woff2);
-}
-
-
-/* body's part */
-
-body{
-    margin: 0;
-    padding: 163px 0 0 0;
-    box-sizing: border-box;
-    font-family: prisque;
-    background-image: url(canop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
-
-
-/* topbar start */
-.topbar{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    background-color: #ffffff;
-    justify-content: space-around;
-    width: 100%;
-    position: fixed;
-    z-index: 1000;
-}
-
-li{
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.top{
-    text-decoration: none;
-}
-
-
-ul{
-    display: flex;
-    text-align: center;
-}
-
-.logodusite{
-    position: relative;
-    right: 32vw;
-}
-
-
-#afrique{
-    color: red;
-}
-
-.jeune_afrique{
-    color: black;
-    font-family: prisque;
-    font-size: 3.2em;
-    position: relative;
-    left: 40px;
-}
-
-.abonner{
-    font-size: 1.1em;
-    position: relative;
-    left: 27vw;
-    top: 20px;
-    color: black;
-    padding: 10px 25px 10px 25px;
-    border: solid rgb(246, 216, 18);
-    background-color:rgb(246, 216, 18);
-    font-family:william;
-}
-
-.utilisateur{
-    color: black;
-    position: relative;
-    left: 28vw !important;
-    top:13px
-}
-
-.mon_compte{
-    color: gray;
-    position: relative;
-    left: 28vw;
-    top: 22px !important;
-    font-family: william;
-}
-/* Topbar end */
-
-
-
-/* header start */
-
-header{
-    background-color: #f7f8fa;
-    position: fixed;
-    top: 94px;
-    width: 100%;
-    z-index: 1000;
-}
-
-.plus{
-    position: relative;
-    right: 240px !important;
-    top: 18px !important;
-}
-
-.menu{
-    font-family: prisque;
-    margin-right: 10px;
-    font-size: 15px;
-    position: relative;
-    top: 16px;
-    text-decoration: none;
-    color: #000000;
-}
-
-.offre{
-    color: rgb(40, 162, 232);
-}
-
-.add{
-    position: relative;
-    bottom: 10px;
-}
-
-.lesdeux{
-    padding-left: 10px;
-    color: #000000;
-    text-decoration: none;
-    position: relative;
-    right: 100px !important;
-    font-size: 15px;
+/* @media  screen and (max-width:1200px) { */
     
-}
 
-.recherche{
-    position: relative;
-    left: 390px !important;
-    right: -50px ;
-    border-left:1px solid gray;
-    padding-left: 10px;
+    @font-face {
+        font-family: william;
+        src: url(taz-semilight.woff2);
+    }
     
-    font-size: 15px;
-}
-
-.actus{
+    @font-face{
+        font-family: ecritgras;
+        src: url(KFOlCnqEu92Fr1MmWUlfBBc4.woff2);
+    }
+    
+    @font-face{
+        font-family: prisque;
+        src: url(taz-extrabold.woff2);
+    }
+    
+    
+    /* body's part */
+    
+    body{
+        margin: 0;
+        padding: 163px 0 0 0;
+        box-sizing: border-box;
+        font-family: prisque;
+        background-image: url(canop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+    
+    
+    /* topbar start */
+    .topbar{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        background-color: #ffffff;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        z-index: 1000;
+    }
+    
+    li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .top{
+        text-decoration: none;
+    }
+    
+    
+    ul{
+        display: flex;
+        text-align: center;
+    }
+    
+    .logodusite{
+        position: relative;
+        right: 32vw;
+    }
+    
+    
+    #afrique{
+        color: red;
+    }
+    
+    .jeune_afrique{
+        color: black;
+        font-family: prisque;
+        font-size: 3.2em;
+        position: relative;
+        left: 40px;
+    }
+    
+    .abonner{
+        font-size: 1.1em;
+        position: relative;
+        left: 27vw;
+        top: 20px;
+        color: black;
+        padding: 10px 25px 10px 25px;
+        border: solid rgb(246, 216, 18);
+        background-color:rgb(246, 216, 18);
+        font-family:william;
+    }
+    
+    .utilisateur{
+        color: black;
+        position: relative;
+        left: 28vw !important;
+        top:13px
+    }
+    
+    .mon_compte{
+        color: gray;
+        position: relative;
+        left: 28vw;
+        top: 22px !important;
+        font-family: william;
+    }
+    /* Topbar end */
+    
+    
+    
+    /* header start */
+    
+    header{
+        background-color: #f7f8fa;
+        position: fixed;
+        top: 94px;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    .plus{
+        position: relative;
+        right: 240px !important;
+        top: 18px !important;
+    }
+    
+    .menu{
+        font-family: prisque;
+        margin-right: 10px;
+        font-size: 15px;
+        position: relative;
+        top: 16px;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .offre{
+        color: rgb(40, 162, 232);
+    }
+    
+    .add{
+        position: relative;
+        bottom: 10px;
+    }
+    
+    .lesdeux{
+        padding-left: 10px;
+        color: #000000;
+        text-decoration: none;
+        position: relative;
+        right: 100px !important;
+        font-size: 15px;
+        
+    }
+    
+    .recherche{
+        position: relative;
+        left: 390px !important;
+        right: -50px ;
+        border-left:1px solid gray;
+        padding-left: 10px;
+        
+        font-size: 15px;
+    }
+    
+    .actus{
+        position: relative;
+        left: 280px;
+        top: 10px;
+        border-left:1px solid gray;
+        padding-left: 20px;
+    }
+    /* end header */
+    
+    
+    /* start pubbar */
+    
+    .pubbar{
+        background-color: #2b2727;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        position: relative;
+        top: -2px;
+    }
+    
+    .pubbar p{
+        color: #ffffff;
+        position: relative;
+        left: 15px;
+    }
+     .pubbar div{
+        display: flex;
+        gap: 30px;
+     }
+    
+    #ja{
+        background-color: rgb(246, 216, 18);
+        border: 1px solid gray;
+        color: #000000;
+        padding:3px;
+    }
+    
+    .arrow{
+        color: gray;
+        margin-top: 10px;
+    }
+    
+    .gauche{
+        position: relative;
+        left: 60px !important;
+    }
+    
+    .droite{
+        position: relative;
+        left: 20px !important;
+    }
+    
+    .africa_business{
+        color: #ffffff;
+        padding: 16px 20px 10px 20px;
+        background-color: rgb(51, 168, 168);
+        text-decoration: none;
+    }
+    .partie1{
+        background-color: #ffffff;
+        width: 60%;
+        height: auto;
+        position: relative;
+        left: 280px;
+        top: 357px;
+        text-align: center;
+        padding-bottom: 73px;
+    }
+    
+    .partie1 .ture{
+       color: red;
+       font-family: william;
+    }
+    
+    .partie1 h1{
+        font-size: 2.3em;
+    }
+    
+    .partie1 h4{
+        color: gray;
+    }
+    
+    .partie1 h6{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #000000;
+        color: gray;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .contenair{
+        max-width: 780px;
+        width: 80%;
+        height: auto;
+        background-color: #ffffff;
+        position: relative;
+        top: 40px;
+        display: grid;
+        left: 85px;
+        grid-template-columns: 1fr 1fr;
+        gap: -40px;
+    }
+    
+    
+    /* la partie droite donc celle des images et des textes */
+    
+    .fatou{
+        position: relative;
+    }
+    
+    .image_text{
+        height: auto;
+        background-color: #ffffff;
+    }
+    
+    .paragraph1{
+        text-align: left;
+        font-family: william;
+        font-size:1.2em;
+        line-height: 25px;
+    }
+    
+    #a_lire{
+        background-color: #55e1d7;
+        padding: 5px 10px;
+        color: #ffffff;
+    }
+    
+    .paragraph2{
+        text-align: left;
+        font-size: 1.2em;
+        font-family: william;
+        position: relative;
+        top: 20px;
+        color: #267873;
+        cursor: pointer;
+        line-height: 25px;
+    }
+    
+    .paragraph2:hover{
+        color: rgb(40, 162, 232);
+    }
+    
+    .paragraph3{
+        position: relative;
+        top: 40px;
+        text-align: left;
+        font-size: 1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .devenir_auteur{
+        position: relative;
+        top: 19px;
+        right: 168px;
+        cursor: pointer;
+    }
+    
+    .voix_active{
+        position: relative;
+        top: 60px;
+        height: 55px;
+    }
+    
+    .discourt p{
+        position: relative;
+        top: 30px;
+        left: 20px;
+        font-size: 2em;
+        color: #c1ad76;
+        text-align: left;
+        font-family:william;
+    }
+    
+    .paragraph4{
+        position:relative;
+        top: 30px;
+        font-size: 1.2em;
+        font-family: william;
+        text-align: left;
+        line-height: 25px;
+    }
+    
+    .paragraph5{
+        position:relative;
+        top: 50px;
+        font-size: 1.2em;
+        font-family: william;
+        text-align: left;
+        line-height: 25px;
+    }
+    
+    .paragraph6{
+        position: relative;
+        top: 70px;
+        text-align: left;
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+    
+    .p6{
+        position: relative;
+        top: 90px;
+        text-align: left;
+        font-family: william;
+        font-size:1.2em;
+        line-height: 25px;
+    }
+    
+    .paragraph7{
+        text-align: left;
+        font-size: 1.2em;
+        font-family: william;
+        position: relative;
+        top: 100px;
+        color: #267873;
+        cursor: pointer;
+        line-height: 25px;
+    }
+    
+    
+    
+    .paragraph7:hover{
+        color: rgb(40, 162, 232);
+    }
+    
+    .p8{
+        position: relative;
+        top: 100px;
+        text-align: left;
+        font-size:1.2em;
+        line-height: 25px;
+    }
+    
+    .p9{
+        position: relative;
+        top: 100px;
+        text-align: left;
+        font-size:1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .p10{
+        position: relative;
+        top: 100px;
+        text-align: left;
+        font-size:1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .p11{
+        position: relative;
+        top: 100px;
+        text-align: left;
+        font-size:1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .etesvous{
+        font-weight: bold;
+    }
+    
+    .p11{
+        position: relative;
+        top: 100px;
+        text-align: left;
+        font-size:1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .p12{
+        position: relative;
+        top: 100px;
+        text-align: left;
+        font-size:1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .voix_active2{
+        position: relative;
+        top: 100px;
+        height: 55px;
+    }
+    
+    .intelligence{
+        position: relative;
+        left: 20px;
+        transform: translateY(40px);
+    }
+    
+    .p13{
+        text-align: left;
+        position: relative;
+        top: 40px;
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+    
+    .p14{
+        text-align: left;
+        position: relative;
+        top: 40px;
+        font-size: 1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .p15{
+        text-align: left;
+        position: relative;
+        top: 40px;
+        font-size: 1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    
+    .p16{
+        text-align: left;
+        font-size: 1.2em;
+        font-family: william;
+        position: relative;
+        top: 50px;
+        color: #267873;
+        cursor: pointer;
+        line-height: 25px;
+    }
+    
+    
+    
+    .p16:hover{
+        color: rgb(40, 162, 232);
+    }
+    
+    .p17{
+        line-height: 25px;
+        position: relative;
+        top: 50px;
+        text-align: left;
+    }
+    
+    .p18{
+        line-height: 25px;
+        position: relative;
+        top: 50px;
+        text-align: left;
+        font-family:william;
+    }
+    
+    .p19{
+        line-height: 25px;
+        position: relative;
+        top: 50px;
+        text-align: left;
+    }
+    
+    .p20{
+        line-height: 25px;
+        position: relative;
+        top: 50px;
+        text-align: left;
+        font-family:william;
+    }
+    
+    .voix_active3{
+        position: relative;
+        top: 60px;
+        height: 55px;
+    }
+    
+    .tuesnoir{
+        position: relative;
+        left: 20px;
+        transform: translateY(1px);
+    }
+    
+    .p21{
+        position: relative;
+        top: 20px;
+        text-align: left;
+        font-size:1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .voix_active4{
+        position: relative;
+        top: 30px;
+        height: 55px;
+    }
+    
+    .constituer{
+        position: relative;
+        left: 20px;
+        transform: translateY(-33px);
+    }
+    
+    .p22{
+        text-align: left;
+        font-size:1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .p23{
+        text-align: left;
+        font-size: 1.2em;
+        font-family: william;
+        transform: translateY(20px);
+        color: #267873;
+        cursor: pointer;
+        line-height: 25px;
+    }
+    
+    
+    
+    .p23:hover{
+        color: rgb(40, 162, 232);
+    }
+    
+    .p24{
+        position: relative;
+        top: 30px;
+        text-align: left;
+        font-size:1.2em;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .ligne{
+        border-bottom: 0.5px solid gray;
+        position: relative;
+        top: 30px;
+        background-color: gray;
+    }
+    
+    .alireaussi{
+        font-size: 1.3em;
+        position: relative;
+        top: 30px;
+        text-align: left;
+    }
+    
+    .arrowjaune{
+        position: relative;
+        right: 280px;
+        top: 30px;
+        color: gray;
+    }
+    
+    .jo{
+        background-color: rgb(246, 216, 18);
+        padding: 2px;
+        border: 1px solid gray;
+        color: #000000;
+        position: relative;
+        right: 280px;
+        top: 25px;
+    }
+    
+    .p25{
+        position: relative;
+        right: 75px;
+        bottom: 10px;
+        font-family: william;
+    }
+    .arrow1{
+        position: relative;
+        right: 280px;
+        bottom: 5px;
+        color: gray;
+    }
+    
+    .je{
+        background-color: rgb(246, 216, 18);
+        padding: 2px;
+        border: 1px solid gray;
+        color: #000000;
+        position: relative;
+        right: 280px;
+        bottom: 10px;
+    }
+    .p26{
+        position: relative;
+        right: 40px;
+        bottom: 44px;
+        font-family: william;
+    }
+    
+    .arrow2{
+        position: relative;
+        right: 280px;
+        bottom: 40px;
+        color: gray;
+    }
+    
+    .ju{
+        background-color: rgb(246, 216, 18);
+        padding: 2px;
+        border: 1px solid gray;
+        color: #000000;
+        position: relative;
+        right: 280px;
+        bottom: 45px;
+    }
+    
+    .p27{
+        position: relative;
+        right: 65px;
+        bottom: 79px;
+        font-family: william;
+    }
+    
+    #trait2{
+        border-bottom: 0.5px solid gray;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .jeunes_afriques{
+        height: 57vh;
+        width: 520px;
+        border: solid 1px gray;
+    }
+    
+    .jeunes{
+        position: relative;
+        right: 195px;
+        top: 35px;
+    }
+    
+    .larichesse{
+        text-align: left;
+        position:relative;
+        left: 29px;
+        top: 30px;
+        font-size: 2em;
+        font-family: prisque;
+    }
+    
+    .litterature{
+        text-align: left;
+        position: relative;
+        left: 29px;
+        top: 30px;
+        width: 440px;
+        font-family: william;
+        line-height: 25px;
+    }
+    
+    .rectanglenoir{
+        height: 15vh;
+        width: 442px;
+        background-color: #000000;
+        position: relative;
+        left: 29px;
+        top: 30px;
+    }
+    
+    .partager{
+        color: #ffffff;
+        position: relative;
+        right: 60px;
+        top: 20px;
+    }
+    
+    .boutonjaune{
+        width: 100px;
+        height: 40px;
+        border: 1px solid #ffd600;
+        position: relative;
+        top: 18px;
+        left: 24px;
+    }
+    
+    .boutonjaune a{
+        line-height: 30px;
+        align-items: center;
+        text-decoration: none;
+        color: #ffffff;
+        position: relative;
+        top: 10px;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    .fleche{
+        display: inline-block;
+        padding: 5px;
+        background-color: #ffd600;
+        position: relative;
+        bottom: 31px;
+        left: 70px;
+    }
+    
+    .lignebleu{
+        background-color: rgb(87, 87, 247);
+        height: 3px;
+        width: 520px;
+        position: relative;
+        top: 50px;
+    }
+    
+    .letexte{
+        background-color: #ebf5fe;
+        width: 520px;
+        height: 20vh;
+        position: relative;
+        top: 50px;
+    }
+    
+    .newslet{
+        position: relative;
+        top: 30px;
+    }
+    
+    .recevez{
+        position: relative;
+        top: 30px;
+        font-family: william;
+    }
+    
+    .bleufonce{
+        background-color: #0070e1;
+        width: 520px;
+        height: auto;
+        position: relative;
+        top: 50px;
+    }
+    
+    #adresse{
+        width: 380px;
+        height: 6vh;
+        border-radius:7px;
+        border: none;
+        font-size: 1em;
+        transform: translateY(15px);
+        padding-left: 30px;
+    }
+    
+    .inscription{
+        transform: translateY(30px);
+        padding: 10px 160px;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 1.2em;
+        border-radius: 7px;
+    }
+    
+    .receive{
+        margin-bottom: 10px;
+        transform: translateX(-70px);
+        position:relative;
+        bottom: 5px;
+    }
+    
+    .receiv{
+        padding: 40px;
+        position: relative;
+        right: 47px;
+        bottom: 7px;
+    }
+    
+    #deuxiemeformulaire{
+        margin-top: 40px;
+        transform: translateX(-100px);
+    }
+    
+    .ecrisduformulaire1{
+        color: #ffffff;
+        font-family: william;
+        position: relative;
+        right: 65px;
+        bottom: 8px;
+    }
+    
+    .ecrisduformulaire2{
+        color: #ffffff;
+        font-family: william;
+        position: relative;
+        right: 43px;
+        bottom: 8px;
+    }
+    
+    .child{
+        color: #ffffff;
+        font-family: william;
+        transform: translateX(-50px);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* la partie publiciter */
+    
+    .africanews{
+        cursor: pointer;
+    }
+    
+    .publicite{
+        width: 375px;
+        height: auto;
+        background-color:  #ffffff;
+        margin-bottom: -33px
+    }
+    
+    .aseraconte{
+        position: relative;
+        top: 40px;
+    }
+    
+    .centrafrique{
+        position: relative;
+        top: 80px;
+        cursor: pointer;
+    }
+    
+    .discourt{
+        display: flex;
+    }
+    
+    .division{
+        height: 0.5vh;
+        background-color:silver;
+        position:relative;
+        top: 100px;
+        width:255px;
+        border-radius: 5px;
+    }
+    
+    .dossier{
+        text-align: left;
+        font-weight: bold;
+        font-family:prisque;
+        position:relative;
+        top: 85px;
+        left: 55px;
+        color: black;
+        font-size: 1.2em;
+        border-bottom: solid 1px gray;
+        width: 65%;
+        padding: 10px;
+    }
+    
+    .suisse_afrique{
+        position: relative;
+        top: 90px;
+        cursor: pointer;
+    }
+    
+    .afrique_avant_tout{
+        position: relative;
+        top: 80px;
+        left: 47px;
+        font-size: 1.1em;
+        cursor: pointer;
+        width:255px;
+    }
+    
+    .axee{
+        font-family: william;
+        font-size:0.7em;
+        position: relative;
+        top: 80px;
+        left: 60px;
+        text-align: left;
+        width: 300px;
+        cursor: pointer;
+        width:255px;
+    }
+    
+    .offert_en_acces_libre{
+        position:relative;
+        top: 80px;
+    }
+    
+    .emploi-et-formation{
+        position: relative;
+        top: 100px;
+    }
+    
+    .offre_emploie{
+        position: relative;
+        top: 96px;
+    }
+    
+    .en_savoir_plus{
+        position: relative;
+        top: 120px;
+    }
+    
+    .theafrica{
+        position: relative;
+        top: 140px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* partie qui correspond  à mon footer */
+    
+    .premiere_partie{
+        background-color: #ffffff;
+        height: 30vh;
+        width: 100%;
+        position: relative;
+        top: 400px;
+        border-top: 1px solid gray;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 70% 90%;
+        gap: -10px;
+    }
+    
+    /* la partie correspondant au premier quart */
+    
+    
+    #dans_l_actualite{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        position: relative;
+        left: 280px;
+        top: 10px;
+        color: #8d8080;
+        font-size: 16px;
+    }
+    
+    #francoisbeya{
+        font-size:16px;
+        position: relative;
+        top: 10px;
+        left: 280px;
+        font-weight:normal;
+        font-family: william;
+    }
+    
+    .beya{
+        text-decoration:none;
+        color: #000000;
+        font-family: william;
+    }
+    
+    .beya:hover{
+        color: #005e79;
+    }
+    
+    
+    /* la partie correspondant au deuxiemequart */
+    
+    
+    .deuxiemequart{
+        position:relative;   
+    }
+    
+    .deuxiemequart::before{
+        position: absolute;
+        content: "";
+        width: 0.07px;
+        height: 65%;
+        background-color: #c3c3c3;
+        left: 0;
+        top: 50%;
+        transform: translate(-20px, -60%);
+    }
+    
+    #pratique{
+        color: #8d8080;
+        font-size: 16px;
+        position:relative;
+        top: 10px;
+    }
+    
+    .applis{
+        position: relative;
+        top: 10px;
+        line-height: 33px;
+    }
+    
+    .laflechedroite{
+        position: relative;
+        top: 5px;
+        margin-right: 10px;
+        color: gray;
+    }
+    
+    
+    /* la partie correspondant au troisiemequart */
+    #retrouvez{
+        position: relative;
+        left: 280px;
+        top: 10px;
+        color: #8d8080;
+        font-size: 16px;
+    }
+    
+    .footer-social__follow-list{
+        display: flex;
+    }
+    
+    .twiter{
+        color: #1da1f2;
+    }
+    
+    .twiter:hover{
+        border-radius: 50%;
+        box-shadow: 1px 1px 1.5px   #1da1f2;
+    }
+    
+    
+    .linkedin{
+        color: #006097;
+        position: relative;
+        bottom: 1px;
+    }
+    
+    
+    .instagram{
+        color: #ffffff ;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 5%;
+        transform: translateX(-253px);
+    }
+    
+    
+    .ladivinsta{
+        background-color: #35638b;
+        width: 31px;
+        height: 31px;
+        border-radius: 50px;
+        display: flex;
+        position: relative;
+        left: 410px;
+        bottom: 35px;
+    }
+    
+    .facebook{
+        color: #3a5a98;
+        position:relative;
+        bottom:5px;
+    }
+    
+    .pinterest{
+        position: relative;
+        bottom: 3px;
+    }
+    
+    .troisiemequart{
+        display: flex;
+        position: relative;
+    }
+    
+    .troisiemequart::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0.07px;
+        background-color: #c3c3c3;
+    }
+    
+    .iconify{
+        position: relative;
+        left: 250px;
+        margin-left: 5px;
+    }
+    
+    
+    /* la partie correspondant au quatriemequart */
+    .quatriemequart{
+        position:relative;
+    }
+    
+    .quatriemequart::before{
+        position:absolute;
+        content: "";
+        height: 0.07px;
+        width: 100%;
+        background-color: #c3c3c3;
+    }
+    
+    .quatriemequart::after{
+        position:absolute;
+        content: "";
+        height: 18%;
+        width: 0.07px;
+        background-color: #c3c3c3;
+        transform: translate(-20px,-160%);
+    }
+    
+    .recevez{
+        color: #8d8080;
+        font-size: 16px;
+    }
+    
+    .jeminscris{
+        width: 110px;
+        height: 35px;
+        background-color: #eceaea;
+        position: relative;
+        left: 200px;
+        bottom: 15px;
+    }
+    
+    .jeminscris:hover{
+        width: 110px;
+        height: 35px;
+        background-color: #d4cfcf;
+    }
+    
+    #jeminscris{
+        position: relative;
+        left: 13px;
+        top: 10px;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    
+    
+    .recevez{
+        position: relative;
+        bottom: 30px !important;
+        transform: translateY(-20px);
+    }
+    
+    .jeminscris{
+        position: relative;
+        transform: translateY(-15px);
+    }
+    
+    
+    
+    
+    /* la deuxieme partie du footer */
+    
+    .before{
+        position:relative;
+    }
+    
+    .before::before{
+        position:absolute;
+        content: "";
+        background-color: gray;
+        height: 100%;
+        width: 0.07px;
+        left: 0;
+        top: 0;
+        transform: translate(-20px, 0%);
+    }
+    
+    
+    .deuxiemepartie{
+        height: 63.5vh;
+        background-color: #2b2727;
+        position: relative;
+        top: 400px;
+        display: grid;
+        grid-template-columns: 30% 15% 15% 15% 30%;
+        grid-template-rows: 80% 20%;
+        padding-bottom: 20px;
+    }
+    
+    /* au  niveau de la div de la premiere colone */
+    
+  
+    
+    
+    .deuxiemepartie h2 .Maghreb{
+        color: #ffffff;
+        font-size: 16px;
+        position: relative;
+        top: 10px;
+        left: 220px;
+        text-decoration:none;
+    }
+    
+    .liste{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .algerie{
+     position: relative;
+     left: 220px;
+     top: 20px;
+     font-family: william;
+     color:gray;
+    }
+    
+    .egypte{
     position: relative;
-    left: 280px;
-    top: 10px;
-    border-left:1px solid gray;
-    padding-left: 20px;
-}
-/* end header */
-
-
-/* start pubbar */
-
-.pubbar{
-    background-color: #2b2727;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    position: relative;
-    top: -2px;
-}
-
-.pubbar p{
-    color: #ffffff;
-    position: relative;
-    left: 15px;
-}
-
-#ja{
-    background-color: rgb(246, 216, 18);
-    border: 1px solid gray;
-    color: #000000;
-    padding:3px;
-}
-
-.arrow{
-    color: gray;
-    margin-top: 10px;
-}
-
-.gauche{
-    position: relative;
-    left: 515px !important;
-}
-
-.droite{
-    position: relative;
-    left: 250px !important;
-}
-
-.africa_business{
-    color: #ffffff;
-    padding: 16px 20px 10px 20px;
-    background-color: rgb(51, 168, 168);
-    text-decoration: none;
-}
-.partie1{
-    background-color: #ffffff;
-    width: 60%;
-    height: auto;
-    position: relative;
-    left: 280px;
-    top: 357px;
-    text-align: center;
-    padding-bottom: 73px;
-}
-
-.partie1 .ture{
-   color: red;
-   font-family: william;
-}
-
-.partie1 h1{
-    font-size: 2.3em;
-}
-
-.partie1 h4{
-    color: gray;
-}
-
-.partie1 h6{
-    padding-bottom: 20px;
-    border-bottom: 1px solid #000000;
-    color: gray;
-    margin: 0;
-    padding: 0;
-}
-
-.contenair{
-    max-width: 780px;
-    width: 80%;
-    height: auto;
-    background-color: #ffffff;
-    position: relative;
-    top: 40px;
-    display: grid;
-    left: 85px;
-    grid-template-columns: 1fr 1fr;
-    gap: -40px;
-}
-
-
-/* la partie droite donc celle des images et des textes */
-
-.fatou{
-    position: relative;
-}
-
-.image_text{
-    height: auto;
-    background-color: #ffffff;
-}
-
-.paragraph1{
-    text-align: left;
-    font-family: william;
-    font-size:1.2em;
-    line-height: 25px;
-}
-
-#a_lire{
-    background-color: #55e1d7;
-    padding: 5px 10px;
-    color: #ffffff;
-}
-
-.paragraph2{
-    text-align: left;
-    font-size: 1.2em;
-    font-family: william;
-    position: relative;
-    top: 20px;
-    color: #267873;
-    cursor: pointer;
-    line-height: 25px;
-}
-
-.paragraph2:hover{
-    color: rgb(40, 162, 232);
-}
-
-.paragraph3{
-    position: relative;
-    top: 40px;
-    text-align: left;
-    font-size: 1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.devenir_auteur{
-    position: relative;
-    top: 19px;
-    right: 168px;
-    cursor: pointer;
-}
-
-.voix_active{
-    position: relative;
-    top: 60px;
-    height: 55px;
-}
-
-.discourt p{
-    position: relative;
-    top: 30px;
-    left: 20px;
-    font-size: 2em;
-    color: #c1ad76;
-    text-align: left;
-    font-family:william;
-}
-
-.paragraph4{
-    position:relative;
-    top: 30px;
-    font-size: 1.2em;
-    font-family: william;
-    text-align: left;
-    line-height: 25px;
-}
-
-.paragraph5{
-    position:relative;
-    top: 50px;
-    font-size: 1.2em;
-    font-family: william;
-    text-align: left;
-    line-height: 25px;
-}
-
-.paragraph6{
-    position: relative;
-    top: 70px;
-    text-align: left;
-    font-size: 1.2em;
-    line-height: 25px;
-}
-
-.p6{
-    position: relative;
-    top: 90px;
-    text-align: left;
-    font-family: william;
-    font-size:1.2em;
-    line-height: 25px;
-}
-
-.paragraph7{
-    text-align: left;
-    font-size: 1.2em;
-    font-family: william;
-    position: relative;
-    top: 100px;
-    color: #267873;
-    cursor: pointer;
-    line-height: 25px;
-}
-
-
-
-.paragraph7:hover{
-    color: rgb(40, 162, 232);
-}
-
-.p8{
-    position: relative;
-    top: 100px;
-    text-align: left;
-    font-size:1.2em;
-    line-height: 25px;
-}
-
-.p9{
-    position: relative;
-    top: 100px;
-    text-align: left;
-    font-size:1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.p10{
-    position: relative;
-    top: 100px;
-    text-align: left;
-    font-size:1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.p11{
-    position: relative;
-    top: 100px;
-    text-align: left;
-    font-size:1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.etesvous{
-    font-weight: bold;
-}
-
-.p11{
-    position: relative;
-    top: 100px;
-    text-align: left;
-    font-size:1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.p12{
-    position: relative;
-    top: 100px;
-    text-align: left;
-    font-size:1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.voix_active2{
-    position: relative;
-    top: 100px;
-    height: 55px;
-}
-
-.intelligence{
-    position: relative;
-    left: 20px;
-    transform: translateY(40px);
-}
-
-.p13{
-    text-align: left;
-    position: relative;
-    top: 40px;
-    font-size: 1.2em;
-    line-height: 25px;
-}
-
-.p14{
-    text-align: left;
-    position: relative;
-    top: 40px;
-    font-size: 1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.p15{
-    text-align: left;
-    position: relative;
-    top: 40px;
-    font-size: 1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-
-.p16{
-    text-align: left;
-    font-size: 1.2em;
-    font-family: william;
-    position: relative;
-    top: 50px;
-    color: #267873;
-    cursor: pointer;
-    line-height: 25px;
-}
-
-
-
-.p16:hover{
-    color: rgb(40, 162, 232);
-}
-
-.p17{
-    line-height: 25px;
-    position: relative;
-    top: 50px;
-    text-align: left;
-}
-
-.p18{
-    line-height: 25px;
-    position: relative;
-    top: 50px;
-    text-align: left;
-    font-family:william;
-}
-
-.p19{
-    line-height: 25px;
-    position: relative;
-    top: 50px;
-    text-align: left;
-}
-
-.p20{
-    line-height: 25px;
-    position: relative;
-    top: 50px;
-    text-align: left;
-    font-family:william;
-}
-
-.voix_active3{
-    position: relative;
-    top: 60px;
-    height: 55px;
-}
-
-.tuesnoir{
-    position: relative;
-    left: 20px;
-    transform: translateY(1px);
-}
-
-.p21{
-    position: relative;
-    top: 20px;
-    text-align: left;
-    font-size:1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.voix_active4{
-    position: relative;
-    top: 30px;
-    height: 55px;
-}
-
-.constituer{
-    position: relative;
-    left: 20px;
-    transform: translateY(-33px);
-}
-
-.p22{
-    text-align: left;
-    font-size:1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.p23{
-    text-align: left;
-    font-size: 1.2em;
-    font-family: william;
-    transform: translateY(20px);
-    color: #267873;
-    cursor: pointer;
-    line-height: 25px;
-}
-
-
-
-.p23:hover{
-    color: rgb(40, 162, 232);
-}
-
-.p24{
-    position: relative;
-    top: 30px;
-    text-align: left;
-    font-size:1.2em;
-    font-family: william;
-    line-height: 25px;
-}
-
-.ligne{
-    border-bottom: 0.5px solid gray;
-    position: relative;
-    top: 30px;
-    background-color: gray;
-}
-
-.alireaussi{
-    font-size: 1.3em;
-    position: relative;
-    top: 30px;
-    text-align: left;
-}
-
-.arrowjaune{
-    position: relative;
-    right: 280px;
-    top: 30px;
-    color: gray;
-}
-
-.jo{
-    background-color: rgb(246, 216, 18);
-    padding: 2px;
-    border: 1px solid gray;
-    color: #000000;
-    position: relative;
-    right: 280px;
-    top: 25px;
-}
-
-.p25{
-    position: relative;
-    right: 75px;
-    bottom: 10px;
-    font-family: william;
-}
-.arrow1{
-    position: relative;
-    right: 280px;
-    bottom: 5px;
-    color: gray;
-}
-
-.je{
-    background-color: rgb(246, 216, 18);
-    padding: 2px;
-    border: 1px solid gray;
-    color: #000000;
-    position: relative;
-    right: 280px;
-    bottom: 10px;
-}
-.p26{
-    position: relative;
-    right: 40px;
-    bottom: 44px;
-    font-family: william;
-}
-
-.arrow2{
-    position: relative;
-    right: 280px;
-    bottom: 40px;
-    color: gray;
-}
-
-.ju{
-    background-color: rgb(246, 216, 18);
-    padding: 2px;
-    border: 1px solid gray;
-    color: #000000;
-    position: relative;
-    right: 280px;
-    bottom: 45px;
-}
-
-.p27{
-    position: relative;
-    right: 65px;
-    bottom: 79px;
-    font-family: william;
-}
-
-#trait2{
-    border-bottom: 0.5px solid gray;
-    position: relative;
-    bottom: 50px;
-}
-
-.jeunes_afriques{
-    height: 57vh;
-    width: 520px;
-    border: solid 1px gray;
-}
-
-.jeunes{
-    position: relative;
-    right: 195px;
-    top: 35px;
-}
-
-.larichesse{
-    text-align: left;
-    position:relative;
-    left: 29px;
-    top: 30px;
-    font-size: 2em;
-    font-family: prisque;
-}
-
-.litterature{
-    text-align: left;
-    position: relative;
-    left: 29px;
-    top: 30px;
-    width: 440px;
-    font-family: william;
-    line-height: 25px;
-}
-
-.rectanglenoir{
-    height: 15vh;
-    width: 442px;
-    background-color: #000000;
-    position: relative;
-    left: 29px;
-    top: 30px;
-}
-
-.partager{
-    color: #ffffff;
-    position: relative;
-    right: 60px;
-    top: 20px;
-}
-
-.boutonjaune{
-    width: 100px;
-    height: 40px;
-    border: 1px solid #ffd600;
-    position: relative;
-    top: 18px;
-    left: 24px;
-}
-
-.boutonjaune a{
-    line-height: 30px;
-    align-items: center;
-    text-decoration: none;
-    color: #ffffff;
-    position: relative;
-    top: 10px;
-    position: relative;
-    bottom: 20px;
-}
-
-.fleche{
-    display: inline-block;
-    padding: 5px;
-    background-color: #ffd600;
-    position: relative;
-    bottom: 31px;
-    left: 70px;
-}
-
-.lignebleu{
-    background-color: rgb(87, 87, 247);
-    height: 3px;
-    width: 520px;
-    position: relative;
-    top: 50px;
-}
-
-.letexte{
-    background-color: #ebf5fe;
-    width: 520px;
-    height: 20vh;
-    position: relative;
-    top: 50px;
-}
-
-.newslet{
-    position: relative;
-    top: 30px;
-}
-
-.recevez{
-    position: relative;
-    top: 30px;
-    font-family: william;
-}
-
-.bleufonce{
-    background-color: #0070e1;
-    width: 520px;
-    height: auto;
-    position: relative;
-    top: 50px;
-}
-
-#adresse{
-    width: 380px;
-    height: 6vh;
-    border-radius:7px;
-    border: none;
-    font-size: 1em;
-    transform: translateY(15px);
-    padding-left: 30px;
-}
-
-.inscription{
-    transform: translateY(30px);
-    padding: 10px 160px;
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 1.2em;
-    border-radius: 7px;
-}
-
-.receive{
-    margin-bottom: 10px;
-    transform: translateX(-70px);
-    position:relative;
-    bottom: 5px;
-}
-
-.receiv{
-    padding: 40px;
-    position: relative;
-    right: 47px;
-    bottom: 7px;
-}
-
-#deuxiemeformulaire{
-    margin-top: 40px;
-    transform: translateX(-100px);
-}
-
-.ecrisduformulaire1{
-    color: #ffffff;
-    font-family: william;
-    position: relative;
-    right: 65px;
-    bottom: 8px;
-}
-
-.ecrisduformulaire2{
-    color: #ffffff;
-    font-family: william;
-    position: relative;
-    right: 43px;
-    bottom: 8px;
-}
-
-.child{
-    color: #ffffff;
-    font-family: william;
-    transform: translateX(-50px);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* la partie publiciter */
-
-.africanews{
-    cursor: pointer;
-}
-
-.publicite{
-    width: 375px;
-    height: auto;
-    background-color:  #ffffff;
-    margin-bottom: -33px
-}
-
-.aseraconte{
-    position: relative;
-    top: 40px;
-}
-
-.centrafrique{
-    position: relative;
-    top: 80px;
-    cursor: pointer;
-}
-
-.discourt{
-    display: flex;
-}
-
-.division{
-    height: 0.5vh;
-    background-color:silver;
-    position:relative;
-    top: 100px;
-    width:255px;
-    border-radius: 5px;
-}
-
-.dossier{
-    text-align: left;
-    font-weight: bold;
-    font-family:prisque;
-    position:relative;
-    top: 85px;
-    left: 55px;
-    color: black;
-    font-size: 1.2em;
-    border-bottom: solid 1px gray;
-    width: 65%;
-    padding: 10px;
-}
-
-.suisse_afrique{
-    position: relative;
-    top: 90px;
-    cursor: pointer;
-}
-
-.afrique_avant_tout{
-    position: relative;
-    top: 80px;
-    left: 47px;
-    font-size: 1.1em;
-    cursor: pointer;
-    width:255px;
-}
-
-.axee{
-    font-family: william;
-    font-size:0.7em;
-    position: relative;
-    top: 80px;
-    left: 60px;
-    text-align: left;
-    width: 300px;
-    cursor: pointer;
-    width:255px;
-}
-
-.offert_en_acces_libre{
-    position:relative;
-    top: 80px;
-}
-
-.emploi-et-formation{
-    position: relative;
-    top: 100px;
-}
-
-.offre_emploie{
-    position: relative;
-    top: 96px;
-}
-
-.en_savoir_plus{
-    position: relative;
-    top: 120px;
-}
-
-.theafrica{
-    position: relative;
-    top: 140px;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* partie qui correspond  à mon footer */
-
-.premiere_partie{
-    background-color: #ffffff;
-    height: 30vh;
-    width: 100%;
-    position: relative;
-    top: 400px;
-    border-top: 1px solid gray;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 70% 90%;
-    gap: -10px;
-}
-
-/* la partie correspondant au premier quart */
-
-
-#dans_l_actualite{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    position: relative;
-    left: 280px;
-    top: 10px;
-    color: #8d8080;
-    font-size: 16px;
-}
-
-#francoisbeya{
-    font-size:16px;
-    position: relative;
-    top: 10px;
-    left: 280px;
-    font-weight:normal;
-    font-family: william;
-}
-
-.beya{
-    text-decoration:none;
-    color: #000000;
-    font-family: william;
-}
-
-.beya:hover{
-    color: #005e79;
-}
-
-
-/* la partie correspondant au deuxiemequart */
-
-
-.deuxiemequart{
-    position:relative;   
-}
-
-.deuxiemequart::before{
-    position: absolute;
-    content: "";
-    width: 0.07px;
-    height: 65%;
-    background-color: #c3c3c3;
-    left: 0;
-    top: 50%;
-    transform: translate(-20px, -60%);
-}
-
-#pratique{
-    color: #8d8080;
-    font-size: 16px;
-    position:relative;
-    top: 10px;
-}
-
-.applis{
-    position: relative;
-    top: 10px;
-    line-height: 33px;
-}
-
-.laflechedroite{
-    position: relative;
-    top: 5px;
-    margin-right: 10px;
-    color: gray;
-}
-
-
-/* la partie correspondant au troisiemequart */
-#retrouvez{
-    position: relative;
-    left: 280px;
-    top: 10px;
-    color: #8d8080;
-    font-size: 16px;
-}
-
-.footer-social__follow-list{
-    display: flex;
-}
-
-.twiter{
-    color: #1da1f2;
-}
-
-.twiter:hover{
-    border-radius: 50%;
-    box-shadow: 1px 1px 1.5px   #1da1f2;
-}
-
-
-.linkedin{
-    color: #006097;
-    position: relative;
-    bottom: 1px;
-}
-
-
-.instagram{
-    color: #ffffff ;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 5%;
-    transform: translateX(-253px);
-}
-
-
-.ladivinsta{
-    background-color: #35638b;
-    width: 31px;
-    height: 31px;
-    border-radius: 50px;
-    display: flex;
-    position: relative;
-    left: 410px;
-    bottom: 35px;
-}
-
-.facebook{
-    color: #3a5a98;
-    position:relative;
-    bottom:5px;
-}
-
-.pinterest{
-    position: relative;
-    bottom: 3px;
-}
-
-.troisiemequart{
-    display: flex;
-    position: relative;
-}
-
-.troisiemequart::before{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0.07px;
-    background-color: #c3c3c3;
-}
-
-.iconify{
-    position: relative;
-    left: 250px;
-    margin-left: 5px;
-}
-
-
-/* la partie correspondant au quatriemequart */
-.quatriemequart{
-    position:relative;
-}
-
-.quatriemequart::before{
-    position:absolute;
-    content: "";
-    height: 0.07px;
-    width: 100%;
-    background-color: #c3c3c3;
-}
-
-.quatriemequart::after{
-    position:absolute;
-    content: "";
-    height: 18%;
-    width: 0.07px;
-    background-color: #c3c3c3;
-    transform: translate(-20px,-160%);
-}
-
-.recevez{
-    color: #8d8080;
-    font-size: 16px;
-}
-
-.jeminscris{
-    width: 110px;
-    height: 35px;
-    background-color: #eceaea;
-    position: relative;
-    left: 200px;
-    bottom: 15px;
-}
-
-.jeminscris:hover{
-    width: 110px;
-    height: 35px;
-    background-color: #d4cfcf;
-}
-
-#jeminscris{
-    position: relative;
-    left: 13px;
-    top: 10px;
-    text-decoration: none;
-    color: #000000;
-}
-
-
-
-.recevez{
-    position: relative;
-    bottom: 30px !important;
-    transform: translateY(-20px);
-}
-
-.jeminscris{
-    position: relative;
-    transform: translateY(-15px);
-}
-
-
-
-
-/* la deuxieme partie du footer */
-
-.before{
-    position:relative;
-}
-
-.before::before{
-    position:absolute;
-    content: "";
-    background-color: gray;
-    height: 100%;
-    width: 0.07px;
-    left: 0;
-    top: 0;
-    transform: translate(-20px, 0%);
-}
-
-
-.deuxiemepartie{
-    height: 63.5vh;
-    background-color: #2b2727;
-    position: relative;
-    top: 400px;
-    display: grid;
-    grid-template-columns: 30% 15% 15% 15% 30%;
-    grid-template-rows: 80% 20%;
-    padding-bottom: 20px;
-}
-
-/* au  niveau de la div de la premiere colone */
-
-.premierecolone{
-
-}
-
-
-.deuxiemepartie h2 .Maghreb{
-    color: #ffffff;
-    font-size: 16px;
-    position: relative;
-    top: 10px;
     left: 220px;
-    text-decoration:none;
-}
-
-.liste{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.algerie{
- position: relative;
- left: 220px;
- top: 20px;
- font-family: william;
- color:gray;
-}
-
-.egypte{
-position: relative;
-left: 220px;
-top: 25px;
-font-family: william;
-color:gray;
-}
-
-.libye{
-position: relative;
-left: 220px;
-top: 30px;
-font-family: william;
-color:gray;
-}
-
-.maroc{
-position: relative;
-left: 220px;
-top: 35px;
-font-family: william;
-color:gray;
-}
-
-.mauritanie{
- position: relative;
- left: 220px;
- top: 40px;
- font-family: william;  
- color:gray;
-}
-
-.morient{
-position: relative;
-left: 220px;
-top: 45px;
-font-family: william;
-color:gray;
-}
-
-.tunisie{
-position: relative;
-left: 220px;
-top: 50px;
-font-family: william;
-color:gray;}   
-
-
-/* au  niveau de la div de la deuxième colone */
-
-
-.deuxiemecolone .afrique{
-    font-size: 16px;
-    position: relative;
-    top: 10px;
-}
-
-.benin{
-    position: relative;
-    top: 20px;
-    font-family: william;
-    color:gray;
-}
-
-.burkina{
-    position: relative;
     top: 25px;
     font-family: william;
     color:gray;
-}
-
-.cap-vert{
+    }
+    
+    .libye{
     position: relative;
+    left: 220px;
     top: 30px;
     font-family: william;
     color:gray;
-}
-
-.cote{
+    }
+    
+    .maroc{
     position: relative;
+    left: 220px;
     top: 35px;
     font-family: william;
     color:gray;
-}
-
-.gambie{
+    }
+    
+    .mauritanie{
+     position: relative;
+     left: 220px;
+     top: 40px;
+     font-family: william;  
+     color:gray;
+    }
+    
+    .morient{
     position: relative;
-    top: 40px;
-    font-family: william;
-    color:gray;
-}
-
-.ghana{
-    position: relative;
+    left: 220px;
     top: 45px;
     font-family: william;
     color:gray;
-}
-
-.guinee{
+    }
+    
+    .tunisie{
     position: relative;
+    left: 220px;
     top: 50px;
     font-family: william;
-    color:gray;
-}
+    color:gray;}   
+    
+    
+    /* au  niveau de la div de la deuxième colone */
+    
+    
+    .deuxiemecolone .afrique{
+        font-size: 16px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .benin{
+        position: relative;
+        top: 20px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .burkina{
+        position: relative;
+        top: 25px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .cap-vert{
+        position: relative;
+        top: 30px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .cote{
+        position: relative;
+        top: 35px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .gambie{
+        position: relative;
+        top: 40px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .ghana{
+        position: relative;
+        top: 45px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .guinee{
+        position: relative;
+        top: 50px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .bissau{
+        position: relative;
+        top: 55px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .liberia{
+        position: relative;
+        top: 60px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .mali{
+        position: relative;
+        top: 65px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .niger{
+        position: relative;
+        top: 70px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .nigeria{
+        position: relative;
+        top: 75px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .senegal{
+        position: relative;
+        top: 80px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .sierraleone{
+        position: relative;
+        top: 85px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .togo{
+        position: relative;
+        top: 90px;
+        font-family: william;
+        color:gray;
+    }
+    
+    
+    /* au  niveau de la div de la troisieme colone */
+    .troisiemecolone .afrique_centrale {
+        font-size: 16px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .afrique_centrale{
+        position: relative;
+        top: 20px;
+    }
+    
+    .cameroun{
+        position: relative;
+        top: 25px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .centrafrique{
+        position: relative;
+        top: 25px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .gabon{
+        position: relative;
+        top: 30px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .equatorial{
+        position: relative;
+        top: 35px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .rdc{
+        position: relative;
+        top: 40px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .congo{
+        position: relative;
+        top: 45px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .tchad{
+        position: relative;
+        top: 50px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .saotome{
+        position: relative;
+        top: 55px;
+        font-family: william;
+        color:gray;
+    }
+    
+    
+    
+    /* au  niveau de la div de la quatrieme colone */
+    .afrique_de_l_est{
+        font-size: 16px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .burundi{
+        position: relative;
+        top: 25px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .erythree{
+        position: relative;
+        top: 35px;
+        font-family: william;
+        color:gray;
+    }
+    
+    .djibouti{
+        position: relative;
+        top: 30px;
+        font-family: william;
+        color:gray;
+    }
+    .erythrée{
+        position: relative;
+        top: 35px;
+        font-family: william;
+        color:gray;
+    }
+    .ethiopie{
+        position: relative;
+        top: 40px;
+        font-family: william;
+        color:gray;
+    }
+    .kenya{
+        position: relative;
+        top: 45px;
+        font-family: william;
+        color:gray;
+    }
+    .ouganda{
+        position: relative;
+        top: 50px;
+        font-family: william;
+        color:gray;
+    }
+    .rwanda{
+        position: relative;
+        top: 55px;
+        font-family: william;
+        color:gray;
+    }
+    .somalie{
+        position: relative;
+        top: 60px;
+        font-family: william;
+        color:gray;
+    }
+    .soudan{
+        position: relative;
+        top: 65px;
+        font-family: william;
+        color:gray;
+    }
+    .soudan_du_sud{
+        position: relative;
+        top: 70px;
+        font-family: william;
+        color:gray;
+    }
+    .tanzanie{
+        position: relative;
+        top: 75px;
+        font-family: william;
+        color:gray;
+    }
+    
+    
+    /* la derniere colone du footer */
+    
+    .Afrique_australe_et_océan_Indien{
+        font-size: 16px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .southafrica{
+        position: relative;
+         top: 25px;
+        font-family: william;
+        color:gray !important;  
+    }
+    
+    
+    .angola{
+        position: relative;
+         top: 30px;
+        font-family: william;
+        color:gray !important; 
+    }
+    
+    .botswana{
+        position: relative;
+        top: 35px;
+       font-family: william;
+       color:gray !important;
+    }
+    
+    .comores{
+        position: relative;
+        top: 40px;
+       font-family: william;
+       color:gray !important;
+    }
+    
+    .lesotho{
+        position: relative;
+        top: 45px;
+       font-family: william;
+       color:gray !important;
+    }
+    
+    
+    
+    /* avant dernierre ligne du footer */
+    .troisiemepartie{
+        grid-column: 1 / span 5;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    
+    .lienfooter{
+        position: relative;
+        color:rgb(211, 211, 211);
+        text-decoration: none;
+        padding-left: 40px;
+        font-family: william;
+    }
+    
+    
+    .bordure{
+        position: relative;
+        color:rgb(211, 211, 211);
+        text-decoration: none;
+        padding-left: 30px;
+    }
+    
+    .bordure::before{
+        position: absolute;
+        content:"";
+        background-color: rgb(211, 211, 211);
+        height: 100%;
+        width: 0.07px;
+        left: 15px;
+    }
+    
+    
+    .tousdroits{
+        color: rgb(211, 211, 211);
+        font-family: william;
+    }
+    
+    
+    
 
-.bissau{
-    position: relative;
-    top: 55px;
-    font-family: william;
-    color:gray;
-}
-
-.liberia{
-    position: relative;
-    top: 60px;
-    font-family: william;
-    color:gray;
-}
-
-.mali{
-    position: relative;
-    top: 65px;
-    font-family: william;
-    color:gray;
-}
-
-.niger{
-    position: relative;
-    top: 70px;
-    font-family: william;
-    color:gray;
-}
-
-.nigeria{
-    position: relative;
-    top: 75px;
-    font-family: william;
-    color:gray;
-}
-
-.senegal{
-    position: relative;
-    top: 80px;
-    font-family: william;
-    color:gray;
-}
-
-.sierraleone{
-    position: relative;
-    top: 85px;
-    font-family: william;
-    color:gray;
-}
-
-.togo{
-    position: relative;
-    top: 90px;
-    font-family: william;
-    color:gray;
-}
-
-
-/* au  niveau de la div de la troisieme colone */
-.troisiemecolone .afrique_centrale {
-    font-size: 16px;
-    position: relative;
-    top: 10px;
-}
-
-.afrique_centrale{
-    position: relative;
-    top: 20px;
-}
-
-.cameroun{
-    position: relative;
-    top: 25px;
-    font-family: william;
-    color:gray;
-}
-
-.centrafrique{
-    position: relative;
-    top: 25px;
-    font-family: william;
-    color:gray;
-}
-
-.gabon{
-    position: relative;
-    top: 30px;
-    font-family: william;
-    color:gray;
-}
-
-.equatorial{
-    position: relative;
-    top: 35px;
-    font-family: william;
-    color:gray;
-}
-
-.rdc{
-    position: relative;
-    top: 40px;
-    font-family: william;
-    color:gray;
-}
-
-.congo{
-    position: relative;
-    top: 45px;
-    font-family: william;
-    color:gray;
-}
-
-.tchad{
-    position: relative;
-    top: 50px;
-    font-family: william;
-    color:gray;
-}
-
-.saotome{
-    position: relative;
-    top: 55px;
-    font-family: william;
-    color:gray;
-}
-
-
-
-/* au  niveau de la div de la quatrieme colone */
-.afrique_de_l_est{
-    font-size: 16px;
-    position: relative;
-    top: 10px;
-}
-
-.burundi{
-    position: relative;
-    top: 25px;
-    font-family: william;
-    color:gray;
-}
-
-.erythree{
-    position: relative;
-    top: 35px;
-    font-family: william;
-    color:gray;
-}
-
-.djibouti{
-    position: relative;
-    top: 30px;
-    font-family: william;
-    color:gray;
-}
-.erythrée{
-    position: relative;
-    top: 35px;
-    font-family: william;
-    color:gray;
-}
-.ethiopie{
-    position: relative;
-    top: 40px;
-    font-family: william;
-    color:gray;
-}
-.kenya{
-    position: relative;
-    top: 45px;
-    font-family: william;
-    color:gray;
-}
-.ouganda{
-    position: relative;
-    top: 50px;
-    font-family: william;
-    color:gray;
-}
-.rwanda{
-    position: relative;
-    top: 55px;
-    font-family: william;
-    color:gray;
-}
-.somalie{
-    position: relative;
-    top: 60px;
-    font-family: william;
-    color:gray;
-}
-.soudan{
-    position: relative;
-    top: 65px;
-    font-family: william;
-    color:gray;
-}
-.soudan_du_sud{
-    position: relative;
-    top: 70px;
-    font-family: william;
-    color:gray;
-}
-.tanzanie{
-    position: relative;
-    top: 75px;
-    font-family: william;
-    color:gray;
-}
-
-
-/* la derniere colone du footer */
-
-.Afrique_australe_et_océan_Indien{
-    font-size: 16px;
-    position: relative;
-    top: 10px;
-}
-
-.southafrica{
-    position: relative;
-     top: 25px;
-    font-family: william;
-    color:gray !important;  
-}
-
-
-.angola{
-    position: relative;
-     top: 30px;
-    font-family: william;
-    color:gray !important; 
-}
-
-.botswana{
-    position: relative;
-    top: 35px;
-   font-family: william;
-   color:gray !important;
-}
-
-.comores{
-    position: relative;
-    top: 40px;
-   font-family: william;
-   color:gray !important;
-}
-
-.lesotho{
-    position: relative;
-    top: 45px;
-   font-family: william;
-   color:gray !important;
-}
-
-
-
-/* avant dernierre ligne du footer */
-.troisiemepartie{
-    grid-column: 1 / span 5;
-    text-align: center;
-    padding-top: 50px;
-}
-
-
-.lienfooter{
-    position: relative;
-    color:rgb(211, 211, 211);
-    text-decoration: none;
-    padding-left: 40px;
-    font-family: william;
-}
-
-
-.bordure{
-    position: relative;
-    color:rgb(211, 211, 211);
-    text-decoration: none;
-    padding-left: 30px;
-}
-
-.bordure::before{
-    position: absolute;
-    content:"";
-    background-color: rgb(211, 211, 211);
-    height: 100%;
-    width: 0.07px;
-    left: 15px;
-}
-
-
-.tousdroits{
-    color: rgb(211, 211, 211);
-    font-family: william;
-}
-
+/* } */
