@@ -38,6 +38,7 @@
         margin: 0;
         padding: 0;
         top: 0;
+        height: 15vh;
         background-color: #ffffff;
         justify-content: space-around;
         width: 100%;
@@ -113,8 +114,11 @@
     header{
         background-color: #f7f8fa;
         position: fixed;
-        top: 94px;
+        top: 102px;
+        display: flex;
+        align-items: center;
         width: 100%;
+        height: 6vh;
         z-index: 1000;
     }
     
@@ -181,7 +185,7 @@
         justify-content: space-between;
         text-align: center;
         position: relative;
-        top: -2px;
+        top: -14px;
     }
     
     .pubbar p{
