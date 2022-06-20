@@ -129,13 +129,16 @@
     }
     
     .menu{
-        font-family: prisque;
-        margin-right: 10px;
+        font-family: william;
+        margin-right: 15px;
         font-size: 15px;
         position: relative;
-        top: 16px;
+        top: 17px;
+        right: 30px;
         text-decoration: none;
         color: #000000;
+        transform: translateY(-20px) !important;
+        font-weight: bold;
     }
     
     .offre{
