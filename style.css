@@ -89,8 +89,16 @@
         border: solid rgb(246, 216, 18);
         background-color:rgb(246, 216, 18);
         font-family:william;
+        transition: all .1s ease-out;
     }
     
+    .abonner:hover{
+        border: #000000 1px solid;
+        padding: 10px 25px 10px 25px;
+        background-color:rgb(246, 216, 18);
+    }
+        
+
     .utilisateur{
         color: black;
         position: relative;
@@ -98,12 +106,22 @@
         top:13px
     }
     
+    .utilisateur:hover{
+        color: #005e79;
+    }
+
     .mon_compte{
         color: gray;
+        font-weight:12px;
         position: relative;
-        left: 28vw;
+        left: 28.5vw;
         top: 22px !important;
         font-family: william;
+    }
+
+    .mon_compte:hover{
+        color: #005e79;
+        text-decoration: underline;
     }
     /* Topbar end */
     
@@ -121,26 +139,136 @@
         height: 6vh;
         z-index: 1000;
     }
+
+    .popup{
+        width: 250px;
+        height: 134px;
+        background-color: #ffffff;
+        color:#000000;
+        border: 1px solid #000000;
+        position: absolute;
+        left: 780px;
+        top: 45.5px;
+        display: none;
+    }
+
+    .popupshow{
+        display: block;
+    }
+
+    .appelsdoffre{
+        position: relative;
+        left: .5px !important;
+        top: 13px !important;
+        padding: 15px 15px 13px 135px; 
+    }
+
+    .boutique{
+        position: relative;
+        left: 0px !important;
+        top: 40px !important;
+        padding: 15px 15px 13px 175px;
+    }
+
+    .newsletters{
+        position: relative;
+        left: 0px !important;
+        top: 67px !important;
+        padding: 15px 15px 13px 155px;
+    }
     
     .plus{
         position: relative;
-        right: 240px !important;
-        top: 18px !important;
+        right: 280px !important;
+        top: 13px !important;
+        color: #000000;
     }
+
+    .live{
+        background-color: red;
+        height: 9.5px;
+        width: 9.5px;
+        position:relative;
+        left: 81px;
+        top:2px;
+        box-shadow: 0 0 0 0 rgba(255, 71, 84, .7);
+        border-radius: 100%;
+        animation: coeur 2s infinite cubic-bezier(.66, 0, 0, 1);
+        transition: all 0.1s ease-in-out;
+    }
+
+    @keyframes coeur {
+        to{
+            box-shadow: 0 0 0 20px rgba(255, 71, 84, 0);
+        }
+        
+    }
+
     
+
     .menu{
         font-family: william;
-        margin-right: 15px;
         font-size: 15px;
         position: relative;
-        top: 17px;
-        right: 30px;
+        top: 10px;
+        right: 40px;
         text-decoration: none;
         color: #000000;
-        transform: translateY(-20px) !important;
         font-weight: bold;
     }
-    
+
+    .menu:hover{
+        background-color: #eceaea;
+        color: #005e79;
+    }
+
+    .a_la_une{
+    padding: 15px 15px 13px 15px;        
+    }
+
+    .politique{
+        padding: 15px 15px 13px 15px; 
+    }
+
+    .economie{
+        padding: 15px 15px 13px 15px; 
+    }
+
+    .societe{
+        padding: 15px 15px 13px 15px; 
+    }
+     
+    .culture{
+        padding: 15px 15px 13px 15px; 
+    }
+
+    .sport{
+        padding: 15px 15px 13px 15px; 
+    }
+
+    .offre{
+        padding: 15px 15px 13px 15px; 
+    }
+
+    .dossiers{
+        padding: 15px 15px 13px 15px; 
+    }
+
+    .videos{
+        padding: 15px 15px 13px 15px; 
+    }
+
+    .classement{
+        padding: 15px 15px 13px 15px; 
+    }
+
+    .opinions{
+        padding: 15px 15px 13px 15px; 
+    }
+
+
+
+
     .offre{
         color: rgb(40, 162, 232);
     }
@@ -159,10 +287,14 @@
         font-size: 15px;
         
     }
+
+    .lesdeux:hover{
+        color: #005e79;
+    }
     
     .recherche{
         position: relative;
-        left: 390px !important;
+        left: 377px !important;
         right: -50px ;
         border-left:1px solid gray;
         padding-left: 10px;
@@ -172,10 +304,10 @@
     
     .actus{
         position: relative;
-        left: 280px;
+        left: 267px;
         top: 10px;
         border-left:1px solid gray;
-        padding-left: 20px;
+        padding-left: 30px;
     }
     /* end header */
     
@@ -188,7 +320,28 @@
         justify-content: space-between;
         text-align: center;
         position: relative;
-        top: -15px;
+        bottom: 20px !important;
+    }
+
+    .le1{
+        display: flex;
+    }
+
+    .le2{
+        z-index: 1000;
+    }
+
+    .le3{
+        position: absolute;
+        right: 230px;
+        width: 1178px;
+        padding: 0px;
+        z-index: 2;
+    }
+
+
+    .le3 p:hover{
+        color: #10b8eb;
     }
     
     .pubbar p{
@@ -222,6 +375,10 @@
         position: relative;
         left: 20px !important;
     }
+
+    .gauche:hover, .droite:hover{
+        color: #ffffff;
+    }
     
     .africa_business{
         color: #ffffff;
@@ -229,6 +386,11 @@
         background-color: rgb(51, 168, 168);
         text-decoration: none;
     }
+
+    .africa_business:hover{
+        background-color: #005d64;
+    }
+
     .partie1{
         background-color: #ffffff;
         width: 60%;
@@ -243,6 +405,8 @@
     .partie1 .ture{
        color: red;
        font-family: william;
+       position: relative;
+       top: 10px;
     }
     
     .partie1 h1{
@@ -291,6 +455,7 @@
         font-family: william;
         font-size:1.2em;
         line-height: 25px;
+        color: #00222b;
     }
     
     #a_lire{
@@ -321,6 +486,7 @@
         font-size: 1.2em;
         font-family: william;
         line-height: 25px;
+        color: #00222b;
     }
     
     .devenir_auteur{
@@ -370,6 +536,7 @@
         text-align: left;
         font-size: 1.2em;
         line-height: 25px;
+        color: #00222b;
     }
     
     .p6{
@@ -379,6 +546,7 @@
         font-family: william;
         font-size:1.2em;
         line-height: 25px;
+        color: #00222b;
     }
     
     .paragraph7{
@@ -413,6 +581,7 @@
         font-size:1.2em;
         font-family: william;
         line-height: 25px;
+        color: #00222b;
     }
     
     .p10{
@@ -431,6 +600,7 @@
         font-size:1.2em;
         font-family: william;
         line-height: 25px;
+        color: #00222b;
     }
     
     .etesvous{
@@ -453,6 +623,7 @@
         font-size:1.2em;
         font-family: william;
         line-height: 25px;
+        color: #00222b;
     }
     
     .voix_active2{
@@ -473,6 +644,7 @@
         top: 40px;
         font-size: 1.2em;
         line-height: 25px;
+        color: #00222b;
     }
     
     .p14{
@@ -482,6 +654,7 @@
         font-size: 1.2em;
         font-family: william;
         line-height: 25px;
+        color: #00222b;
     }
     
     .p15{
@@ -491,6 +664,7 @@
         font-size: 1.2em;
         font-family: william;
         line-height: 25px;
+        color: #00222b;
     }
     
     
@@ -524,6 +698,7 @@
         top: 50px;
         text-align: left;
         font-family:william;
+        color: #00222b;
     }
     
     .p19{
@@ -539,6 +714,7 @@
         top: 50px;
         text-align: left;
         font-family:william;
+        color: #00222b;
     }
     
     .voix_active3{
@@ -560,6 +736,7 @@
         font-size:1.2em;
         font-family: william;
         line-height: 25px;
+        color: #00222b;
     }
     
     .voix_active4{
@@ -725,6 +902,7 @@
         width: 440px;
         font-family: william;
         line-height: 25px;
+        color: #00222b;
     }
     
     .rectanglenoir{
@@ -868,19 +1046,7 @@
     }
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /* la partie publiciter */
+     /* la partie publiciter */
     
     .africanews{
         cursor: pointer;
@@ -1003,7 +1169,7 @@
         top: 400px;
         border-top: 1px solid gray;
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 66% 34%;
         grid-template-rows: 70% 90%;
         gap: -10px;
     }
@@ -1083,10 +1249,10 @@
     /* la partie correspondant au troisiemequart */
     #retrouvez{
         position: relative;
-        left: 280px;
-        top: 10px;
+        left: 260px;
+        top: 15px;
         color: #8d8080;
-        font-size: 16px;
+        font-size: 13.5px;
     }
     
     .footer-social__follow-list{
@@ -1095,6 +1261,9 @@
     
     .twiter{
         color: #1da1f2;
+        position:relative;
+        top: 3px;
+        transform:translateX(-20px) !important;
     }
     
     .twiter:hover{
@@ -1106,7 +1275,8 @@
     .linkedin{
         color: #006097;
         position: relative;
-        bottom: 1px;
+        top: 1px;
+        transform:translateX(-20px) !important;
     }
     
     
@@ -1115,31 +1285,34 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 5%;
+        top: 6%;
         transform: translateX(-253px);
     }
     
     
     .ladivinsta{
         background-color: #35638b;
-        width: 31px;
-        height: 31px;
+        width: 26px;
+        height: 26px;
         border-radius: 50px;
         display: flex;
         position: relative;
-        left: 410px;
-        bottom: 35px;
+        left: 390px;
+        bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        transform:translateX(-10px) !important;
     }
     
     .facebook{
         color: #3a5a98;
         position:relative;
-        bottom:5px;
+        transform:translateX(-20px) !important;
     }
     
     .pinterest{
         position: relative;
-        bottom: 3px;
+        transform:translateX(-20px) !important;
     }
     
     .troisiemequart{
@@ -1181,12 +1354,14 @@
         height: 18%;
         width: 0.07px;
         background-color: #c3c3c3;
-        transform: translate(-20px,-160%);
+        transform: translate(-20px,-150%);
     }
     
     .recevez{
         color: #8d8080;
-        font-size: 16px;
+        font-size: 13.5px;
+        position: relative;
+        top: 35px;
     }
     
     .jeminscris{
@@ -1194,8 +1369,8 @@
         height: 35px;
         background-color: #eceaea;
         position: relative;
-        left: 200px;
-        bottom: 15px;
+        left: 170px;
+        bottom: 5px;
     }
     
     .jeminscris:hover{
@@ -1242,7 +1417,7 @@
         width: 0.07px;
         left: 0;
         top: 0;
-        transform: translate(-20px, 0%);
+        transform: translate(-18px, 5%);
     }
     
     
@@ -1252,9 +1427,10 @@
         position: relative;
         top: 400px;
         display: grid;
-        grid-template-columns: 30% 15% 15% 15% 30%;
+        grid-template-columns: 31% 13% 13% 13% 31%;
         grid-template-rows: 80% 20%;
         padding-bottom: 20px;
+        margin-bottom: 40px;
     }
     
     /* au  niveau de la div de la premiere colone */
@@ -1264,10 +1440,10 @@
     
     .deuxiemepartie h2 .Maghreb{
         color: #ffffff;
-        font-size: 16px;
+        font-size: 14px;
         position: relative;
-        top: 10px;
-        left: 220px;
+        bottom: 10px !important;
+        left: 260px;
         text-decoration:none;
     }
     
@@ -1278,373 +1454,499 @@
     
     .algerie{
      position: relative;
-     left: 220px;
-     top: 20px;
+     left: 260px;
+     top: -10px;
      font-family: william;
      color:gray;
+     font-size:13px;
     }
     
     .egypte{
     position: relative;
-    left: 220px;
-    top: 25px;
+    left: 260px;
+    top: -5px;
     font-family: william;
     color:gray;
+    font-size:13px;
     }
     
     .libye{
     position: relative;
-    left: 220px;
-    top: 30px;
+    left: 260px;
+    top: 0px;
     font-family: william;
     color:gray;
+    font-size:13px;
     }
     
     .maroc{
     position: relative;
-    left: 220px;
-    top: 35px;
+    left: 260px;
+    top: 5px;
     font-family: william;
     color:gray;
+    font-size:13px;
     }
     
     .mauritanie{
      position: relative;
-     left: 220px;
-     top: 40px;
+     left: 260px;
+     top: 10px;
      font-family: william;  
      color:gray;
+     font-size:13px;
     }
     
     .morient{
     position: relative;
-    left: 220px;
-    top: 45px;
+    left: 260px;
+    top: 15px;
     font-family: william;
     color:gray;
+    font-size:13px;
     }
     
     .tunisie{
     position: relative;
-    left: 220px;
-    top: 50px;
+    left: 260px;
+    top: 20px;
     font-family: william;
-    color:gray;}   
+    color:gray;
+    font-size:13px;
+}   
     
     
     /* au  niveau de la div de la deuxième colone */
     
     
     .deuxiemecolone .afrique{
-        font-size: 16px;
+        font-size: 14px;
         position: relative;
-        top: 10px;
+        bottom: 10px;
     }
     
     .benin{
         position: relative;
-        top: 20px;
+        top: -11px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .burkina{
         position: relative;
-        top: 25px;
+        top: -6px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .cap-vert{
         position: relative;
-        top: 30px;
+        top: -2px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .cote{
         position: relative;
-        top: 35px;
+        top: 0px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .gambie{
         position: relative;
-        top: 40px;
+        top: 5px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .ghana{
         position: relative;
-        top: 45px;
+        top: 10px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .guinee{
         position: relative;
-        top: 50px;
+        top: 15px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .bissau{
         position: relative;
-        top: 55px;
+        top: 20px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .liberia{
         position: relative;
-        top: 60px;
+        top: 25px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .mali{
         position: relative;
-        top: 65px;
+        top: 30px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .niger{
         position: relative;
-        top: 70px;
+        top: 35px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .nigeria{
         position: relative;
-        top: 75px;
+        top: 40px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .senegal{
         position: relative;
-        top: 80px;
+        top: 45px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .sierraleone{
         position: relative;
-        top: 85px;
+        top: 50px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .togo{
         position: relative;
-        top: 90px;
+        top: 55px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     
     /* au  niveau de la div de la troisieme colone */
     .troisiemecolone .afrique_centrale {
-        font-size: 16px;
+        font-size: 14px;
         position: relative;
-        top: 10px;
+        bottom: 10px;
     }
     
     .afrique_centrale{
         position: relative;
-        top: 20px;
+        top: -13px;
+        font-size:13px;
     }
     
     .cameroun{
         position: relative;
-        top: 25px;
+        top: -8px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .centrafrique{
         position: relative;
-        top: 25px;
+        top: -3px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .gabon{
         position: relative;
-        top: 30px;
+        top: 2px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .equatorial{
         position: relative;
-        top: 35px;
+        top: 7px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .rdc{
         position: relative;
-        top: 40px;
+        top: 12px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .congo{
         position: relative;
-        top: 45px;
+        top: 17px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .tchad{
         position: relative;
-        top: 50px;
+        top: 22px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     .saotome{
         position: relative;
-        top: 55px;
+        top: 27px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
     
     
     /* au  niveau de la div de la quatrieme colone */
     .afrique_de_l_est{
-        font-size: 16px;
+        font-size: 14px;
         position: relative;
-        top: 10px;
+        bottom: 10px;
     }
     
     .burundi{
         position: relative;
-        top: 25px;
+        top: -10px;
         font-family: william;
         color:gray;
+        font-size:13px;
+    }
+    .djibouti{
+        position: relative;
+        top: -5px;
+        font-family: william;
+        color:gray;
+        font-size:13px;
     }
     
     .erythree{
         position: relative;
-        top: 35px;
+        top: 0px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
     
-    .djibouti{
+    .erythrée{
+        position: relative;
+        top: 5px;
+        font-family: william;
+        color:gray;
+        font-size:13px;
+    }
+    .ethiopie{
+        position: relative;
+        top: 10px;
+        font-family: william;
+        color:gray;
+        font-size:13px;
+    }
+    .kenya{
+        position: relative;
+        top: 15px;
+        font-family: william;
+        color:gray;
+        font-size:13px;
+    }
+    .ouganda{
+        position: relative;
+        top: 20px;
+        font-family: william;
+        color:gray;
+        font-size:13px;
+    }
+    .rwanda{
+        position: relative;
+        top: 25px;
+        font-family: william;
+        color:gray;
+        font-size:13px;
+    }
+    .somalie{
         position: relative;
         top: 30px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
-    .erythrée{
+    .soudan{
         position: relative;
         top: 35px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
-    .ethiopie{
+    .soudan_du_sud{
         position: relative;
         top: 40px;
         font-family: william;
         color:gray;
+        font-size:13px;
     }
-    .kenya{
+    .tanzanie{
         position: relative;
         top: 45px;
         font-family: william;
         color:gray;
-    }
-    .ouganda{
-        position: relative;
-        top: 50px;
-        font-family: william;
-        color:gray;
-    }
-    .rwanda{
-        position: relative;
-        top: 55px;
-        font-family: william;
-        color:gray;
-    }
-    .somalie{
-        position: relative;
-        top: 60px;
-        font-family: william;
-        color:gray;
-    }
-    .soudan{
-        position: relative;
-        top: 65px;
-        font-family: william;
-        color:gray;
-    }
-    .soudan_du_sud{
-        position: relative;
-        top: 70px;
-        font-family: william;
-        color:gray;
-    }
-    .tanzanie{
-        position: relative;
-        top: 75px;
-        font-family: william;
-        color:gray;
+        font-size:13px;
     }
     
     
     /* la derniere colone du footer */
     
     .Afrique_australe_et_océan_Indien{
-        font-size: 16px;
+        font-size: 14px;
         position: relative;
-        top: 10px;
+        bottom: 10px;
+    }
+
+    .indien{
+        position: relative;
+        right: 142px;
+        top: 15px;
     }
     
     .southafrica{
         position: relative;
-         top: 25px;
+         top: 3px;
         font-family: william;
-        color:gray !important;  
+        color:gray !important;
+        font-size:13px;  
     }
     
     
     .angola{
         position: relative;
-         top: 30px;
+         top: 8px;
         font-family: william;
         color:gray !important; 
+        font-size:13px;
     }
     
     .botswana{
         position: relative;
-        top: 35px;
+        top: 15px;
        font-family: william;
        color:gray !important;
+       font-size:13px;
     }
     
     .comores{
         position: relative;
-        top: 40px;
+        top: 20px;
        font-family: william;
        color:gray !important;
+       font-size:13px;
     }
     
     .lesotho{
         position: relative;
+        top: 25px;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
+    }
+
+    .madagascar{
+        position: relative;
+        top: 30px;
+        font-size:13px;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
+    }
+
+    .malawi{
+        position:relative;
+        top: 35px;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
+    }
+
+    .maurice{
+        position:relative;
+        top: 40px;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
+    }
+
+    .mozanbique{
+        position:relative;
         top: 45px;
-       font-family: william;
-       color:gray !important;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
+    }
+
+    .namibie{
+        position:relative;
+        top: 50px;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
     }
     
+    .seychelles{
+        position:relative;
+        top: 55px;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
+    }
+
+    .eswatini{
+        position:relative;
+        top: 60px;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
+    }
     
+    .zambie{
+        position:relative;
+        top: 65px;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
+    }
+
+    .zimbabwe{
+        position:relative;
+        top: 70px;
+        font-family: william;
+        color:gray !important;
+        font-size:13px;
+    }
     
     /* avant dernierre ligne du footer */
     .troisiemepartie{
@@ -1655,10 +1957,13 @@
     
     
     .lienfooter{
+        font-size:14px;
         position: relative;
+        bottom: 5px;
+        right: 20px;
         color:rgb(211, 211, 211);
         text-decoration: none;
-        padding-left: 40px;
+        padding-left: -10px;
         font-family: william;
     }
     
@@ -1667,7 +1972,7 @@
         position: relative;
         color:rgb(211, 211, 211);
         text-decoration: none;
-        padding-left: 30px;
+        padding-left: 25px;
     }
     
     .bordure::before{
@@ -1683,9 +1988,18 @@
     .tousdroits{
         color: rgb(211, 211, 211);
         font-family: william;
+        position:relative;
+        bottom: 0px !important;
+        font-size: 14px;
+    }
+
+    .color:hover{
+        color: #10b8eb;
     }
     
-    
+    .couleur:hover{
+        color: #10b8eb !important;
+    }
     
 
 /* } */
