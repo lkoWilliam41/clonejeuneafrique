@@ -63,7 +63,7 @@
     
     .logodusite{
         position: relative;
-        right: 32vw;
+        right: 31.7vw;
     }
     
     
@@ -76,7 +76,7 @@
         font-family: prisque;
         font-size: 3.2em;
         position: relative;
-        left: 40px;
+        left: 72px;
     }
     
     .abonner{
@@ -283,7 +283,7 @@
         color: #000000;
         text-decoration: none;
         position: relative;
-        right: 100px !important;
+        right: 0px !important;
         font-size: 15px;
         
     }
@@ -294,7 +294,7 @@
     
     .recherche{
         position: relative;
-        left: 377px !important;
+        left: 375px !important;
         right: -50px ;
         border-left:1px solid gray;
         padding-left: 10px;
@@ -393,13 +393,14 @@
 
     .partie1{
         background-color: #ffffff;
-        width: 60%;
+        width: 64%;
         height: auto;
         position: relative;
         left: 280px;
         top: 357px;
         text-align: center;
         padding-bottom: 73px;
+        padding-left: 50px;
     }
     
     .partie1 .ture{
@@ -1053,7 +1054,7 @@
     }
     
     .publicite{
-        width: 375px;
+        width: 290px;
         height: auto;
         background-color:  #ffffff;
         margin-bottom: -33px
@@ -1222,7 +1223,7 @@
         background-color: #c3c3c3;
         left: 0;
         top: 50%;
-        transform: translate(-20px, -60%);
+        transform: translate(-45px, -60%);
     }
     
     #pratique{
@@ -1230,19 +1231,30 @@
         font-size: 16px;
         position:relative;
         top: 10px;
+        right:26px !important;
+
     }
     
     .applis{
         position: relative;
-        top: 10px;
+        top: 7px;
         line-height: 33px;
+        right:15px !important;
+        font-size:13px;
+    }
+
+    .paradepratique{
+        position: relative;
+        bottom:7px;
+        right:16px;
     }
     
     .laflechedroite{
         position: relative;
-        top: 5px;
+        top: 0px;
         margin-right: 10px;
         color: gray;
+        right:16px !important;
     }
     
     
@@ -1354,7 +1366,7 @@
         height: 18%;
         width: 0.07px;
         background-color: #c3c3c3;
-        transform: translate(-20px,-150%);
+        transform: translate(-45px,-150%);
     }
     
     .recevez{
@@ -1362,6 +1374,7 @@
         font-size: 13.5px;
         position: relative;
         top: 35px;
+        right: 20px;
     }
     
     .jeminscris{
@@ -1369,7 +1382,7 @@
         height: 35px;
         background-color: #eceaea;
         position: relative;
-        left: 170px;
+        left: 142px !important;
         bottom: 5px;
     }
     
@@ -1381,7 +1394,7 @@
     
     #jeminscris{
         position: relative;
-        left: 13px;
+        left: 10px;
         top: 10px;
         text-decoration: none;
         color: #000000;
@@ -1972,7 +1985,7 @@
         position: relative;
         color:rgb(211, 211, 211);
         text-decoration: none;
-        padding-left: 25px;
+        padding-left: 14.5px;
     }
     
     .bordure::before{
@@ -1981,7 +1994,7 @@
         background-color: rgb(211, 211, 211);
         height: 100%;
         width: 0.07px;
-        left: 15px;
+        left: 5px;
     }
     
     
@@ -1990,6 +2003,7 @@
         font-family: william;
         position:relative;
         bottom: 0px !important;
+        right:5px;
         font-size: 14px;
     }
 
